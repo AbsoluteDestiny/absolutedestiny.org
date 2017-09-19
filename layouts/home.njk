@@ -1,0 +1,9 @@
+{% extends "base.njk" %}
+
+{% block main %}
+    {{contents | safe}}
+
+    {% for post in vids %}
+    {{post.title}} 
+    {% endfor %}
+{% endblock %}

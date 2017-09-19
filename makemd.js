@@ -27,7 +27,7 @@ vids.forEach(v => {
   const srt = v.fields.subs.map(g => subtitle.find(el => el.pk === g))[0];
   const vid = {
     title: v.fields.title,
-    date: v.fields.date_released,
+    date: new Date(v.fields.date_released),
     published: !v.fields.secret,
     thumbnail: v.fields.thumbnail.split("/")[2],
     description: v.fields.description,
@@ -66,7 +66,7 @@ vids.forEach(v => {
 });
 
 data
-  .sort((a, b) => new Date(b.date_released) - new Date(a.date_released))
+  .sort((a, b) => b.date - a.date)
   .reverse();
 
 data.forEach((el, i) => {
