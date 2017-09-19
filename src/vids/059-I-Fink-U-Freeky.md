@@ -1,14 +1,10 @@
 ---
 title: 'I Fink U Freeky'
+date: 2013-05-08T22:00:08.000Z
+published: true
+thumbnail: freeky.jpg
 description: 'and I like you a lot.'
 lyrics: ""
-thumbnail: freeky.jpg
-date_released: '2013-05-08T22:00:08Z'
-published: true
-tags:
-    - liveaction
-    - spoilers
-    - youhadtobethere
 footage:
     - '946 Pinocchio (1991)'
     - 'Rubber''s Lover (1996)'
@@ -20,6 +16,10 @@ downloads: []
 srt: null
 sd_stream: null
 hd_stream: null
+tags:
+    - liveaction
+    - spoilers
+    - youhadtobethere
 vid_id: '059'
 
 ---

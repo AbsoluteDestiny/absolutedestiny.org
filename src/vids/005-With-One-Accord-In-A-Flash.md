@@ -1,14 +1,10 @@
 ---
 title: 'With One Accord In A Flash'
+date: 2002-04-04T23:12:14.000Z
+published: true
+thumbnail: With-One-Accord-In-a-Flash_1.jpg
 description: 'Made as a wedding gift for Marco and Christina of Turboneko Studios.'
 lyrics: ""
-thumbnail: With-One-Accord-In-a-Flash_1.jpg
-date_released: '2002-04-04T23:12:14Z'
-published: true
-tags:
-    - anime
-    - gift
-    - nospoilers
 footage:
     - 'My Neighbors the Yamadas (1999)'
 song: 'Both of You, Dance Like You Want to Win!'
@@ -19,6 +15,10 @@ downloads:
 srt: null
 sd_stream: AbsoluteDestiny-With_One_Accord_In_A_Flash-480p.m4v
 hd_stream: null
+tags:
+    - anime
+    - gift
+    - nospoilers
 vid_id: '005'
 
 ---

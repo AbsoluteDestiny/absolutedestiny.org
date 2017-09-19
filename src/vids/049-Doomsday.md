@@ -1,14 +1,10 @@
 ---
 title: Doomsday
+date: 2011-12-13T19:51:08.000Z
+published: true
+thumbnail: Doomsday.jpg
 description: 'Made during Festivids 2011/12 for fan_eunice.'
 lyrics: ""
-thumbnail: Doomsday.jpg
-date_released: '2011-12-13T19:51:08Z'
-published: true
-tags:
-    - spoilers
-    - gift
-    - youhadtobethere
 footage:
     - 'Independence Day (1996)'
 song: Doomsday
@@ -20,6 +16,10 @@ downloads:
 srt: null
 sd_stream: AbsoluteDestiny-Doomsday-480p.m4v
 hd_stream: AbsoluteDestiny-Doomsday-720p.m4v
+tags:
+    - spoilers
+    - gift
+    - youhadtobethere
 vid_id: '049'
 
 ---

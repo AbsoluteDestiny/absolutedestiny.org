@@ -1,12 +1,10 @@
 ---
 title: Revenge
+date: 2005-05-10T15:24:47.000Z
+published: true
+thumbnail: Revenge.jpg
 description: 'A visual canon of exploitation movie revenge.'
 lyrics: ""
-thumbnail: Revenge.jpg
-date_released: '2005-05-10T15:24:47Z'
-published: true
-tags:
-    - liveaction
 footage:
     - 'Coffy (1973)'
     - 'Female Convict 701: Scorpion (1972)'
@@ -24,6 +22,8 @@ downloads:
 srt: null
 sd_stream: AbsoluteDestiny-Revenge-480p.m4v
 hd_stream: null
+tags:
+    - liveaction
 vid_id: '034'
 
 ---

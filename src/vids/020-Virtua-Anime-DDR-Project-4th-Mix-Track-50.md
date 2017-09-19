@@ -1,13 +1,10 @@
 ---
 title: 'Virtua Anime (DDR Project 4th Mix: Track 50)'
+date: 2003-08-25T23:55:00.000Z
+published: true
+thumbnail: Virtua-Anime_1.jpg
 description: 'First and last time I used 3D models in a vid. This was painful to make and it took a seriously long time too. The result was fun though and at least I can say I''ve tried making 3D and made something enjoyable.'
 lyrics: ""
-thumbnail: Virtua-Anime_1.jpg
-date_released: '2003-08-25T23:55:00Z'
-published: true
-tags:
-    - anime
-    - multieditorproject
 footage:
     - 'Cowboy Bebop (1998)'
     - 'Daicon IV Opening Animation (1983)'
@@ -23,6 +20,9 @@ downloads:
 srt: null
 sd_stream: AbsoluteDestiny-Virtua_Anime_DDR_Project_4th_Mix_Track_50-480p.m4v
 hd_stream: null
+tags:
+    - anime
+    - multieditorproject
 vid_id: '020'
 
 ---

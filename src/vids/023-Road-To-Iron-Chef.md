@@ -1,15 +1,10 @@
 ---
 title: 'Road To Iron Chef'
+date: 2003-09-23T23:02:00.000Z
+published: true
+thumbnail: Road-To-Iron-Chef.jpg
 description: 'A parody video made for a panel at Anime Weekend Atlanta about the preparations for that year''s Iron Chef contest.'
 lyrics: ""
-thumbnail: Road-To-Iron-Chef.jpg
-date_released: '2003-09-23T23:02:00Z'
-published: true
-tags:
-    - collaboration
-    - anime
-    - youhadtobethere
-    - nospoilers
 footage:
     - 'Original Art by Big Big Truck (2003)'
 song: 'Original Voice Acting'
@@ -20,6 +15,11 @@ downloads:
 srt: null
 sd_stream: AbsoluteDestiny-Road_to_Iron_Chef-480p.m4v
 hd_stream: null
+tags:
+    - collaboration
+    - anime
+    - youhadtobethere
+    - nospoilers
 vid_id: '023'
 
 ---

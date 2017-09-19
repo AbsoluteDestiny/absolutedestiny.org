@@ -1,12 +1,10 @@
 ---
 title: 'Blues Driven Naota (Instant Music Video)'
+date: 2002-03-12T23:12:14.000Z
+published: true
+thumbnail: Instant-Music-Video.jpg
 description: 'Made for an instructional panel on making music videos at MinamiCon 2002 and hence contains a lot of techniques which may or may not be appropriate for this video.'
 lyrics: ""
-thumbnail: Instant-Music-Video.jpg
-date_released: '2002-03-12T23:12:14Z'
-published: true
-tags:
-    - anime
 footage:
     - 'FLCL (2000)'
 song: Doll
@@ -17,6 +15,8 @@ downloads:
 srt: null
 sd_stream: AbsoluteDestiny-Blues_Driven_Naota_Instant_Music_Video-480p.m4v
 hd_stream: null
+tags:
+    - anime
 vid_id: '004'
 
 ---

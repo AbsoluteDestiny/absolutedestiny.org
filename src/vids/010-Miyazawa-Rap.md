@@ -1,14 +1,10 @@
 ---
 title: 'Miyazawa Rap'
+date: 2002-08-13T23:44:00.000Z
+published: true
+thumbnail: Miyazawa-Rap.jpg
 description: 'Really makes no sense without having seen both shows used.'
 lyrics: ""
-thumbnail: Miyazawa-Rap.jpg
-date_released: '2002-08-13T23:44:00Z'
-published: true
-tags:
-    - anime
-    - youhadtobethere
-    - nospoilers
 footage:
     - 'His and Her Circumstances (1998)'
     - 'Kodomo no Omocha (1996)'
@@ -20,6 +16,10 @@ downloads:
 srt: null
 sd_stream: null
 hd_stream: null
+tags:
+    - anime
+    - youhadtobethere
+    - nospoilers
 vid_id: '010'
 
 ---

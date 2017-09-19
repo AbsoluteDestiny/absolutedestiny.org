@@ -1,13 +1,10 @@
 ---
 title: 'North (Noir DVD 7 Omake)'
+date: 2003-08-19T04:34:50.000Z
+published: true
+thumbnail: North.jpg
 description: 'This video was commissioned by ADV for their DVD release of the anime <cite>Noir</cite>. No special effects or distinctive digital manipulations could be used and no changes to the song choice or cut.'
 lyrics: ""
-thumbnail: North.jpg
-date_released: '2003-08-19T04:34:50Z'
-published: true
-tags:
-    - anime
-    - nospoilers
 footage:
     - 'Noir (2001)'
 song: 'Kirei na Kanjou (Pure Emotions)'
@@ -18,6 +15,9 @@ downloads:
 srt: null
 sd_stream: AbsoluteDestiny-North-480p.m4v
 hd_stream: null
+tags:
+    - anime
+    - nospoilers
 vid_id: '019'
 
 ---

@@ -1,14 +1,10 @@
 ---
 title: 'Dinosaur Studios Experiment 2: Wired Hypnosis'
+date: 2003-05-22T13:56:47.000Z
+published: true
+thumbnail: Wired-Hypnosis_1.jpg
 description: 'Part two of the Dinosaur Studios pretence. Works really well in a big audience.'
 lyrics: ""
-thumbnail: Wired-Hypnosis_1.jpg
-date_released: '2003-05-22T13:56:47Z'
-published: true
-tags:
-    - anime
-    - youhadtobethere
-    - nospoilers
 footage:
     - 'Serial Experiments Lain (1998)'
 song: 'Modulation #1'
@@ -19,6 +15,10 @@ downloads:
 srt: null
 sd_stream: AbsoluteDestiny-Wired_Hypnosis-480p.m4v
 hd_stream: null
+tags:
+    - anime
+    - youhadtobethere
+    - nospoilers
 vid_id: '016'
 
 ---
