@@ -11,7 +11,7 @@ song: 'Original Voice Acting'
 artist: 'AbsoluteDestiny, Kusoyaro, Akimbo'
 song_info_url: 'http://www.animemusicvideos.org/members/members_videoinfo.php?v=25084'
 downloads:
-    - {url: AbsoluteDestiny-Road_to_Iron_Chef-480p.m4v, width: 640, height: 480, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Road_to_Iron_Chef-480p.m4v, title: '480p mp4', width: 640, height: 480, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Road_to_Iron_Chef-480p.m4v
 svg: AbsoluteDestiny-Road_to_Iron_Chef.svg

@@ -13,8 +13,8 @@ song: Jailbreak
 artist: 'Thin Lizzy'
 song_info_url: 'https://en.wikipedia.org/wiki/Jailbreak_%28Thin_Lizzy_song%29'
 downloads:
-    - {url: AbsoluteDestiny-Jailbreak-480p.m4v, width: 848, height: 352, mimetype: video/mp4}
-    - {url: AbsoluteDestiny-Jailbreak-720p.m4v, width: 1280, height: 544, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Jailbreak-480p.m4v, title: '480p mp4', width: 848, height: 352, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Jailbreak-720p.m4v, title: '720p mp4', width: 1280, height: 544, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Jailbreak-480p.m4v
 svg: AbsoluteDestiny-Jailbreak.svg
@@ -28,6 +28,7 @@ tags:
     - liveaction
 vid_id: '053'
 yt_id: -UJb1zf8jWc
+priority: 0.8
 
 ---
 The criminal hi-jinx of the rebel scum. For colls, Festivids 2011/12

@@ -11,7 +11,7 @@ song: 'Kirei na Kanjou (Pure Emotions)'
 artist: 'Akino Arai'
 song_info_url: 'https://secure.wikimedia.org/wikipedia/en/wiki/Noir_%28anime%29#Soundtrack'
 downloads:
-    - {url: AbsoluteDestiny-North-480p.m4v, width: 640, height: 352, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-North-480p.m4v, title: '480p mp4', width: 640, height: 352, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-North-480p.m4v
 svg: AbsoluteDestiny-North.svg

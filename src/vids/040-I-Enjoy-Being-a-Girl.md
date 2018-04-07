@@ -14,7 +14,7 @@ song: 'I Enjoy Being a Girl'
 artist: 'Sandra Allen'
 song_info_url: 'https://secure.wikimedia.org/wikipedia/en/wiki/Flower_Drum_Song#2002_Revival'
 downloads:
-    - {url: AbsoluteDestiny-I_Enjoy_Being_a_Girl-480p.m4v, width: 640, height: 480, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-I_Enjoy_Being_a_Girl-480p.m4v, title: '480p mp4', width: 640, height: 480, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-I_Enjoy_Being_a_Girl-480p.m4v
 svg: AbsoluteDestiny-I_Enjoy_Being_a_Girl.svg
@@ -28,6 +28,7 @@ tags:
 vid_id: '040'
 mux: o01ABVPl2gK4y1MP00NrwlPsHpj2ZzgJx00
 yt_id: PUMvjgSzLAw
+priority: 0.9
 
 ---
 Made for the <a href="http://fanlore.org/wiki/Vividcon/Vividcon_2006">Vividcon 2006</a> auction for Par Avion, a simple look at some role-model female TV characters.

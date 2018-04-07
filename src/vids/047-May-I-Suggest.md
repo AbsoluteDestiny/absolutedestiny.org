@@ -11,8 +11,8 @@ song: 'May I Suggest'
 artist: 'Susan Werner'
 song_info_url: 'http://www.susanwerner.com/music/m_lap.html'
 downloads:
-    - {url: AbsoluteDestiny-May_I_Suggest-480p.m4v, width: 848, height: 480, mimetype: video/mp4}
-    - {url: AbsoluteDestiny-May_I_Suggest-720p.m4v, width: 1280, height: 720, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-May_I_Suggest-480p.m4v, title: '480p mp4', width: 848, height: 480, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-May_I_Suggest-720p.m4v, title: '720p mp4', width: 1280, height: 720, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-May_I_Suggest-480p.m4v
 svg: AbsoluteDestiny-May_I_Suggest.svg

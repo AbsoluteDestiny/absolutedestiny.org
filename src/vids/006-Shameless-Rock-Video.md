@@ -11,7 +11,7 @@ song: 'Speed King'
 artist: 'Deep Purple'
 song_info_url: 'http://en.wikipedia.org/wiki/Deep_Purple_in_Rock'
 downloads:
-    - {url: AbsoluteDestiny-Shameless_Rock_Video-480p.m4v, width: 640, height: 480, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Shameless_Rock_Video-480p.m4v, title: '480p mp4', width: 640, height: 480, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Shameless_Rock_Video-480p.m4v
 svg: AbsoluteDestiny-Shameless_Rock_Video.svg
@@ -24,6 +24,7 @@ tags:
 vid_id: '006'
 mux: sICiO5ikZ6L6TIRfD5C7C01RgVHzmkN8k
 yt_id: 4tHAtz0g4mE
+priority: 1.0
 
 ---
 This is the video that got me known among anime music video creators and it's something of an anthem video for me. FLCL is in my mind one of the finest Psychotronic works and this was a chance for me to play with its themes and have a lot of fun.

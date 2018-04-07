@@ -16,7 +16,7 @@ song: I.W.I.W.A.L.
 artist: 'Loudon Wainwright III'
 song_info_url: 'http://en.wikipedia.org/wiki/Loudon_Wainwright_III'
 downloads:
-    - {url: AbsoluteDestiny-I_Wish_I_Was_a_Lesbian-480p.m4v, width: 640, height: 480, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-I_Wish_I_Was_a_Lesbian-480p.m4v, title: '480p mp4', width: 640, height: 480, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-I_Wish_I_Was_a_Lesbian-480p.m4v
 svg: AbsoluteDestiny-I_Wish_I_Was_a_Lesbian.svg
@@ -27,6 +27,7 @@ tags:
 vid_id: '018'
 mux: P02V7bwdmIPdJhJJ2quTiskR7oyiN5NG01
 yt_id: WJzRFog6sPE
+priority: 0.8
 
 ---
 I had this video planned for <em>ages</em> and when I finally got around to making it I missed the Otakon deadline. Oh well, it went to AWA and was a big success!

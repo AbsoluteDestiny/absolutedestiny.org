@@ -11,7 +11,7 @@ song: 'Modulation #1'
 artist: 'Otomo Yoshihide'
 song_info_url: 'http://en.wikipedia.org/wiki/Yoshihide_Otomo'
 downloads:
-    - {url: AbsoluteDestiny-Wired_Hypnosis-480p.m4v, width: 640, height: 480, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Wired_Hypnosis-480p.m4v, title: '480p mp4', width: 640, height: 480, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Wired_Hypnosis-480p.m4v
 svg: AbsoluteDestiny-Wired_Hypnosis.svg

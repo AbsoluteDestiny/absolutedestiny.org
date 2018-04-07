@@ -11,9 +11,9 @@ song: 'Rock Lobster'
 artist: 'The B-52''s'
 song_info_url: 'https://en.wikipedia.org/wiki/Rock_Lobster'
 downloads:
-    - {url: AbsoluteDestiny-Rock_Lobster-1080p.m4v, width: 1440, height: 1080, mimetype: video/mp4}
-    - {url: AbsoluteDestiny-Rock_Lobster-480p.m4v, width: 640, height: 480, mimetype: video/mp4}
-    - {url: AbsoluteDestiny-Rock_Lobster-720p.m4v, width: 960, height: 720, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Rock_Lobster-1080p.m4v, title: '1080p mp4', width: 1440, height: 1080, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Rock_Lobster-480p.m4v, title: '480p mp4', width: 640, height: 480, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Rock_Lobster-720p.m4v, title: '720p mp4', width: 960, height: 720, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Rock_Lobster-480p.m4v
 svg: AbsoluteDestiny-Rock_Lobster.svg

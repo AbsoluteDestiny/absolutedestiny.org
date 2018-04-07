@@ -11,8 +11,8 @@ song: 'Papa''s Got A Brand New Bag (pt 1)'
 artist: 'James Brown'
 song_info_url: 'https://en.wikipedia.org/wiki/Papa%27s_Got_a_Brand_New_Bag'
 downloads:
-    - {url: AbsoluteDestiny-Papas_Got_A_Brand_New_Bag-480p.m4v, width: 848, height: 480, mimetype: video/mp4}
-    - {url: AbsoluteDestiny-Papas_Got_A_Brand_New_Bag-720p.m4v, width: 1280, height: 720, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Papas_Got_A_Brand_New_Bag-480p.m4v, title: '480p mp4', width: 848, height: 480, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Papas_Got_A_Brand_New_Bag-720p.m4v, title: '720p mp4', width: 1280, height: 720, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Papas_Got_A_Brand_New_Bag-480p.m4v
 svg: AbsoluteDestiny-Papas_Got_A_Brand_New_Bag.svg

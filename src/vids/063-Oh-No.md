@@ -11,9 +11,9 @@ song: 'Oh No!'
 artist: 'Marina and the Diamonds'
 song_info_url: 'http://en.wikipedia.org/wiki/Oh_No!'
 downloads:
-    - {url: AbsoluteDestiny-Oh_No-1080p.m4v, width: 1440, height: 1080, mimetype: video/mp4}
-    - {url: AbsoluteDestiny-Oh_No-480p.m4v, width: 640, height: 480, mimetype: video/mp4}
-    - {url: AbsoluteDestiny-Oh_No-720p.m4v, width: 960, height: 720, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Oh_No-1080p.m4v, title: '1080p mp4', width: 1440, height: 1080, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Oh_No-480p.m4v, title: '480p mp4', width: 640, height: 480, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Oh_No-720p.m4v, title: '720p mp4', width: 960, height: 720, mimetype: video/mp4}
 srt: null
 sd_stream: null
 svg: AbsoluteDestiny-Oh_No.svg

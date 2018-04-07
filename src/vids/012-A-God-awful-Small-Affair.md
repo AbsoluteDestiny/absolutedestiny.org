@@ -12,7 +12,7 @@ song: 'Life on Mars?'
 artist: 'David Bowie'
 song_info_url: 'http://en.wikipedia.org/wiki/Life_on_Mars%3F'
 downloads:
-    - {url: AbsoluteDestiny-A_Goddawful_Small_Affair-480p.m4v, width: 848, height: 480, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-A_Goddawful_Small_Affair-480p.m4v, title: '480p mp4', width: 848, height: 480, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-A_Goddawful_Small_Affair-480p.m4v
 svg: AbsoluteDestiny-A_Goddawful_Small_Affair.svg

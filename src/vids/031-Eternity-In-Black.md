@@ -11,7 +11,7 @@ song: 'Paint It Black'
 artist: 'The Rolling Stones'
 song_info_url: 'https://secure.wikimedia.org/wikipedia/en/wiki/Paint_It,_Black'
 downloads:
-    - {url: AbsoluteDestiny-Eternity_in_Black-480p.m4v, width: 848, height: 480, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Eternity_in_Black-480p.m4v, title: '480p mp4', width: 848, height: 480, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Eternity_in_Black-480p.m4v
 svg: AbsoluteDestiny-Eternity_in_Black.svg

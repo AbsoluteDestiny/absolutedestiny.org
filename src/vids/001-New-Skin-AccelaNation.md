@@ -11,7 +11,7 @@ song: 'New Skin'
 artist: Incubus
 song_info_url: 'https://secure.wikimedia.org/wikipedia/en/wiki/New_Skin_%28Incubus_song%29'
 downloads:
-    - {url: AbsoluteDestiny-New_Skin-480p.m4v, width: 640, height: 480, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-New_Skin-480p.m4v, title: '480p mp4', width: 640, height: 480, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-New_Skin-480p.m4v
 svg: AbsoluteDestiny-New_Skin.svg

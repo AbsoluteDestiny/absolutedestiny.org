@@ -26,7 +26,7 @@ song: 'Shake a Tailfeather'
 artist: 'Ray Charles'
 song_info_url: 'http://en.wikipedia.org/wiki/Shake_a_Tail_Feather'
 downloads:
-    - {url: AbsoluteDestiny-Do_It_Right_Shake_It-480p.m4v, width: 640, height: 480, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Do_It_Right_Shake_It-480p.m4v, title: '480p mp4', width: 640, height: 480, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Do_It_Right_Shake_It-480p.m4v
 svg: AbsoluteDestiny-Do_It_Right_Shake_It.svg

@@ -12,7 +12,7 @@ song: 'To Cut A Long Story Short'
 artist: 'Spandau Ballet'
 song_info_url: 'https://secure.wikimedia.org/wikipedia/en/wiki/Journeys_to_Glory'
 downloads:
-    - {url: AbsoluteDestiny-Arima_Shinjikun-480p.m4v, width: 640, height: 480, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Arima_Shinjikun-480p.m4v, title: '480p mp4', width: 640, height: 480, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Arima_Shinjikun-480p.m4v
 svg: AbsoluteDestiny-Arima_Shinjikun.svg
@@ -25,6 +25,7 @@ tags:
 vid_id: '008'
 mux: xyMwPNxp8L2fSizjhZnK1KMBB7cgwH72
 yt_id: GdY8K9RkTqo
+priority: 0.8
 
 ---
 This video is a character profile of two characters from animations directed by Hideaki Anno done in the style of his post-Nadia work. As such, it's very stylised and not to everyone's taste. Despite being essentially an experimental video, it was very well received and is one of my favourites.

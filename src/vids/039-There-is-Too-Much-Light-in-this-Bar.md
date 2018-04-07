@@ -11,7 +11,7 @@ song: 'There is Too Much Light In This Bar'
 artist: Wammo
 song_info_url: 'http://www.discogs.com/Wammo-Fat-Headed-Stranger/release/2451111'
 downloads:
-    - {url: AbsoluteDestiny-There_is_Too_Much_Light_in_this_Bar-480p.m4v, width: 848, height: 480, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-There_is_Too_Much_Light_in_this_Bar-480p.m4v, title: '480p mp4', width: 848, height: 480, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-There_is_Too_Much_Light_in_this_Bar-480p.m4v
 svg: AbsoluteDestiny-There_is_Too_Much_Light_in_this_Bar.svg

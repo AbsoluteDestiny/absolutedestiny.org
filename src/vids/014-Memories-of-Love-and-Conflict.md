@@ -11,7 +11,7 @@ song: 'Last Goodbye'
 artist: 'Jeff Buckley'
 song_info_url: 'https://secure.wikimedia.org/wikipedia/en/wiki/Last_Goodbye_%28Jeff_Buckley_song%29'
 downloads:
-    - {url: AbsoluteDestiny-Memories_of_Love_and_Conflict-480p.m4v, width: 848, height: 480, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Memories_of_Love_and_Conflict-480p.m4v, title: '480p mp4', width: 848, height: 480, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Memories_of_Love_and_Conflict-480p.m4v
 svg: AbsoluteDestiny-Memories_of_Love_and_Conflict.svg
@@ -23,6 +23,7 @@ tags:
 vid_id: '014'
 mux: 83bLdURf3rRG7c5RvUJB02qy1mtAMGcKS
 yt_id: GERenXBvDLc
+priority: 0.8
 
 ---
 Ill-fated teen romance and dreamland melodrama abound.

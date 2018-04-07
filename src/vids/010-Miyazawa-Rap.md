@@ -12,7 +12,7 @@ song: 'The Colour of Defeat is a Dark Dark Blue'
 artist: 'Kurata Sana'
 song_info_url: 'https://secure.wikimedia.org/wikipedia/en/wiki/List_of_Kodocha_episodes#Season_1'
 downloads:
-    - {url: AbsoluteDestiny-Miyazawa_Rap-480p.m4v, width: 640, height: 480, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Miyazawa_Rap-480p.m4v, title: '480p mp4', width: 640, height: 480, mimetype: video/mp4}
 srt: null
 sd_stream: null
 svg: 'AbsoluteDestiny-Miyazawa_Rap.svg'

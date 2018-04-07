@@ -12,8 +12,8 @@ song: 'Say Aha (Tepr Edit)'
 artist: Santigold
 song_info_url: 'http://en.wikipedia.org/wiki/Say_Aha'
 downloads:
-    - {url: AbsoluteDestiny-Say_Aha-fixed-480p.m4v, width: 848, height: 402, mimetype: video/mp4}
-    - {url: AbsoluteDestiny-Say_Aha-fixed-720p.m4v, width: 1280, height: 608, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Say_Aha-fixed-480p.m4v, title: '480p mp4', width: 848, height: 402, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Say_Aha-fixed-720p.m4v, title: '720p mp4', width: 1280, height: 608, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Say_Aha-fixed-480p.m4v
 svg: AbsoluteDestiny-Say_Aha-fixed.svg
@@ -26,6 +26,7 @@ tags:
 vid_id: '056'
 mux: S5006PQjymXL9LRRn64R4VUGzGfsn1BDR
 ty_id: ijE09_HcLVw
+priority: 0.8
 
 ---
 Louder than they allow, allow

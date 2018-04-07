@@ -11,9 +11,9 @@ song: 'Rhythm and Police (K.O.G G3 Mix)'
 artist: 'CJ Crew feat. Christian D'
 song_info_url: 'http://en.wikipedia.org/wiki/Dance_Dance_Revolution_5thMix'
 downloads:
-    - {url: AbsoluteDestiny-DDR_Project_5th_Mix_Rhythm__Police-480p_1.m4v, width: 848, height: 480, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-DDR_Project_5th_Mix_Rhythm__Police-480p.m4v, title: '480p mp4', width: 848, height: 480, mimetype: video/mp4}
 srt: null
-sd_stream: AbsoluteDestiny-DDR_Project_5th_Mix_Rhythm__Police-480p_1.m4v
+sd_stream: AbsoluteDestiny-DDR_Project_5th_Mix_Rhythm__Police-480p.m4v
 svg: AbsoluteDestiny-DDR_Project_5th_Mix_Rhythm__Police.svg
 bgimg: AbsoluteDestiny-DDR_Project_5th_Mix_Rhythm__Police.jpg
 hd_stream: null

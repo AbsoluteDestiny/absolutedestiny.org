@@ -15,7 +15,7 @@ song: 'E.T. Medley'
 artist: 'John Williams'
 song_info_url: 'http://en.wikipedia.org/wiki/E.T._the_Extra-Terrestrial_(soundtrack)'
 downloads:
-    - {url: AbsoluteDestiny-The_Magic_of_Flight-480p.m4v, width: 640, height: 480, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-The_Magic_of_Flight-480p.m4v, title: '480p mp4', width: 640, height: 480, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-The_Magic_of_Flight-480p.m4v
 svg: AbsoluteDestiny-The_Magic_of_Flight.svg

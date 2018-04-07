@@ -11,8 +11,8 @@ song: 'Livin'' In The Sunlight, Lovin'' In The Moonlight'
 artist: 'Tiny Tim'
 song_info_url: 'https://en.wikipedia.org/wiki/God_Bless_Tiny_Tim'
 downloads:
-    - {url: AbsoluteDestiny-Livin_in_the_Sunlight_Lovin_in_the_Moonlight-480p.m4v, width: 848, height: 480, mimetype: video/mp4}
-    - {url: AbsoluteDestiny-Livin_in_the_Sunlight_Lovin_in_the_Moonlight-720p.m4v, width: 1280, height: 720, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Livin_in_the_Sunlight_Lovin_in_the_Moonlight-480p.m4v, title: '480p mp4', width: 848, height: 480, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Livin_in_the_Sunlight_Lovin_in_the_Moonlight-720p.m4v, title: '720p mp4', width: 1280, height: 720, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Livin_in_the_Sunlight_Lovin_in_the_Moonlight-480p.m4v
 svg: AbsoluteDestiny-Livin_in_the_Sunlight_Lovin_in_the_Moonlight.svg

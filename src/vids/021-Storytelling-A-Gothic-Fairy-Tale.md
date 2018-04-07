@@ -11,7 +11,7 @@ song: 'Edward Scissorhands Medley'
 artist: 'Danny Elfman'
 song_info_url: 'http://en.wikipedia.org/wiki/Danny_Elfman'
 downloads:
-    - {url: AbsoluteDestiny-A_Gothic_Fairy_Tale-480p.m4v, width: 640, height: 352, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-A_Gothic_Fairy_Tale-480p.m4v, title: '480p mp4', width: 640, height: 352, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-A_Gothic_Fairy_Tale-480p.m4v
 svg: AbsoluteDestiny-A_Gothic_Fairy_Tale.svg
@@ -22,6 +22,7 @@ tags:
 vid_id: '021'
 mux: lEfbV7vHQbVgV4MIjilr8q99NFaT25ho
 yt_id: G6UCqMdwMAs
+priority: 0.8
 
 ---
 Essentially a rewrite of an excellent but rare short animated feature, this video was made to show off this gorgeous footage and uses pretty much every scene from the anime. Didn't expect this to be so successful.

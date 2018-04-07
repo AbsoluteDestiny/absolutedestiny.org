@@ -11,7 +11,7 @@ song: 'Alice in Wonderland'
 artist: 'John Moschitta'
 song_info_url: 'http://en.wikipedia.org/wiki/John_Moschitta,_Jr.'
 downloads:
-    - {url: AbsoluteDestiny-Alice_in_Wonderland-480p.m4v, width: 640, height: 272, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Alice_in_Wonderland-480p.m4v, title: '480p mp4', width: 640, height: 272, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Alice_in_Wonderland-480p.m4v
 svg: AbsoluteDestiny-Alice_in_Wonderland.svg
