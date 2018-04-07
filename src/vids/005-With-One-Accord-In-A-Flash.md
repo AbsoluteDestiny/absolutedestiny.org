@@ -14,12 +14,15 @@ downloads:
     - {url: AbsoluteDestiny-With_One_Accord_In_A_Flash-480p.m4v, width: 848, height: 480, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-With_One_Accord_In_A_Flash-480p.m4v
+svg: AbsoluteDestiny-With_One_Accord_In_A_Flash.svg
+bgimg: AbsoluteDestiny-With_One_Accord_In_A_Flash.jpg
 hd_stream: null
 tags:
     - anime
     - gift
     - nospoilers
 vid_id: '005'
+mux: Ln9Wd4vsqC3OxmzEs1IGWulj1ptF02M01r
 
 ---
 Made as a wedding gift for Marco and Christina of Turboneko Studios.

@@ -14,12 +14,15 @@ downloads:
     - {url: AbsoluteDestiny-There_is_Too_Much_Light_in_this_Bar-480p.m4v, width: 848, height: 480, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-There_is_Too_Much_Light_in_this_Bar-480p.m4v
+svg: AbsoluteDestiny-There_is_Too_Much_Light_in_this_Bar.svg
+bgimg: AbsoluteDestiny-There_is_Too_Much_Light_in_this_Bar.jpg
 hd_stream: null
 tags:
     - rockandmetal
     - myfaves
     - liveaction
 vid_id: '039'
+mux: MyPVY4ulVZESOvA6XLNFgnRsGqVsJsQ00
 
 ---
 Sam Tyler is lost and confused in some distant pop culture nightmare.

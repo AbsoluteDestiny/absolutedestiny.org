@@ -12,8 +12,10 @@ artist: 'Tilly and the Wall'
 song_info_url: 'http://en.wikipedia.org/wiki/Beat_Control'
 downloads:
     - {url: AbsoluteDestiny-Beat_Control-480p.m4v, width: 832, height: 480, mimetype: video/mp4}
-srt: null
+srt: AbsoluteDestiny-Beat_Control.vtt
 sd_stream: AbsoluteDestiny-Beat_Control-480p.m4v
+svg: AbsoluteDestiny-Beat_Control.svg
+bgimg: AbsoluteDestiny-Beat_Control.jpg
 hd_stream: null
 tags:
     - disney
@@ -21,6 +23,8 @@ tags:
     - myfaves
     - spoilers
 vid_id: '045'
+mux: sXMGipK00waLLxG1O1u4tUB202fEYOMhX9
+yt_id: iD5qD-lFYgw
 
 ---
 Ohana.

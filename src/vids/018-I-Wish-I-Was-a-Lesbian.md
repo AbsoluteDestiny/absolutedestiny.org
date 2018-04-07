@@ -19,10 +19,14 @@ downloads:
     - {url: AbsoluteDestiny-I_Wish_I_Was_a_Lesbian-480p.m4v, width: 640, height: 480, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-I_Wish_I_Was_a_Lesbian-480p.m4v
+svg: AbsoluteDestiny-I_Wish_I_Was_a_Lesbian.svg
+bgimg: AbsoluteDestiny-I_Wish_I_Was_a_Lesbian.jpg
 hd_stream: null
 tags:
     - nospoilers
 vid_id: '018'
+mux: P02V7bwdmIPdJhJJ2quTiskR7oyiN5NG01
+yt_id: WJzRFog6sPE
 
 ---
 I had this video planned for <em>ages</em> and when I finally got around to making it I missed the Otakon deadline. Oh well, it went to AWA and was a big success!

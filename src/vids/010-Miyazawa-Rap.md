@@ -15,12 +15,16 @@ downloads:
     - {url: AbsoluteDestiny-Miyazawa_Rap-480p.m4v, width: 640, height: 480, mimetype: video/mp4}
 srt: null
 sd_stream: null
+svg: 'AbsoluteDestiny-Miyazawa_Rap.svg'
+bgimg: 'AbsoluteDestiny-Miyazawa_Rap.jpg'
 hd_stream: null
 tags:
     - anime
     - youhadtobethere
     - nospoilers
 vid_id: '010'
+mux: YBODPytSurvbwNlKOwDKUdKTAqF002ZG8
+yt_id: Z_zT99QZFEU
 
 ---
 Really makes no sense without having seen both shows used.

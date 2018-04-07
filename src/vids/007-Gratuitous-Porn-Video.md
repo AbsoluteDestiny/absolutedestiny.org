@@ -13,6 +13,8 @@ song_info_url: 'https://secure.wikimedia.org/wikipedia/en/wiki/Duck_and_Cover_%2
 downloads: []
 srt: null
 sd_stream: null
+svg: AbsoluteDestiny-Gratuitous_Porn_Video.svg
+bgimg: AbsoluteDestiny-Gratuitous_Porn_Video.jpg
 hd_stream: null
 tags:
     - youhadtobethere

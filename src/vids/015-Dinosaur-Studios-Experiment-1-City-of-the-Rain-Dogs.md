@@ -14,12 +14,15 @@ downloads:
     - {url: AbsoluteDestiny-City_Of_The_Rain_Dogs-480p.m4v, width: 640, height: 352, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-City_Of_The_Rain_Dogs-480p.m4v
+svg: AbsoluteDestiny-City_Of_The_Rain_Dogs.svg
+bgimg: AbsoluteDestiny-City_Of_The_Rain_Dogs.jpg
 hd_stream: null
 tags:
     - anime
     - youhadtobethere
     - nospoilers
 vid_id: '015'
+mux: 02aHtMV6301m01uzAkS4pfNGxP3N4c9qxXA
 
 ---
 Made as a joke. Deliberately pretentious attempt at baiting comments using sockpuppets. This is the film noir one.

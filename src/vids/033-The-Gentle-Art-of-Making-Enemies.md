@@ -14,11 +14,14 @@ downloads:
     - {url: AbsoluteDestiny-The_Gentle_Art_of_Making_Enemies-480p.m4v, width: 848, height: 384, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-The_Gentle_Art_of_Making_Enemies-480p.m4v
+svg: AbsoluteDestiny-The_Gentle_Art_of_Making_Enemies.svg
+bgimg: AbsoluteDestiny-The_Gentle_Art_of_Making_Enemies.jpg
 hd_stream: null
 tags:
     - rockandmetal
     - liveaction
 vid_id: '033'
+mux: 110201iGe50100MVvo1Bw3USWfYsfVteQBPA
 
 ---
 Oh Dae-su's revenge fantasy.

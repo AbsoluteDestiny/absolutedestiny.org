@@ -56,6 +56,8 @@ vids.forEach(v => {
     }),
     srt: srt ? srt.fields.attachment.split("/")[1] : null,
     sd_stream: sdStream ? sdStream.attachment.split("/")[1] : null,
+    svg: sdStream ? sdStream.attachment.split("/")[1].replace('_1', '').replace('-480p.m4v', '.svg') : null,
+    bgimg: sdStream ? sdStream.attachment.split("/")[1].replace('_1', '').replace('_1', '').replace('-480p.m4v', '.jpg') : null,
     hd_stream: hdStream ? hdStream.attachment.split("/")[1] : null,
     tags: v.fields.genres.map(g => genre.find(el => el.pk === g).fields.title),
   };

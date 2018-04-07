@@ -15,11 +15,15 @@ downloads:
     - {url: AbsoluteDestiny-A_Goddawful_Small_Affair-480p.m4v, width: 848, height: 480, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-A_Goddawful_Small_Affair-480p.m4v
+svg: AbsoluteDestiny-A_Goddawful_Small_Affair.svg
+bgimg: AbsoluteDestiny-A_Goddawful_Small_Affair.jpg
 hd_stream: null
 tags:
     - anime
     - nospoilers
 vid_id: '012'
+mux: TtxEofUBLCvgSOx2GAZ6cRDC00bHt0242u
+yt_id: qz71EoT1zZM
 
 ---
 A critique of Rintaro's Metropolis and my first experiment with After Effects.

@@ -14,12 +14,15 @@ downloads:
     - {url: AbsoluteDestiny-The_Death_and_The_Navigator-480p.m4v, width: 848, height: 480, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-The_Death_and_The_Navigator-480p.m4v
+svg: AbsoluteDestiny-The_Death_and_The_Navigator.svg
+bgimg: AbsoluteDestiny-The_Death_and_The_Navigator.jpg
 hd_stream: null
 tags:
     - liveaction
     - spoilers
     - gift
 vid_id: '055'
+mux: xhh3JDcn00yZAkMK9dukp1vJ2ye9IXqEx
 
 ---
 for Gwyn

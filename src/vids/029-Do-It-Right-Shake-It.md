@@ -29,12 +29,16 @@ downloads:
     - {url: AbsoluteDestiny-Do_It_Right_Shake_It-480p.m4v, width: 640, height: 480, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Do_It_Right_Shake_It-480p.m4v
+svg: AbsoluteDestiny-Do_It_Right_Shake_It.svg
+bgimg: AbsoluteDestiny-Do_It_Right_Shake_It.jpg
 hd_stream: null
 tags:
     - anime
     - myfaves
     - nospoilers
 vid_id: '029'
+mux: 7IQ9NR4lndjGRu2kL01LT5cKlcwTuVIU2
+yt_id: iVyJq6Y_vdc
 
 ---
 Colourful, silly, celebration of dance vid.

@@ -14,6 +14,8 @@ downloads:
     - {url: AbsoluteDestiny-Road_to_Iron_Chef-480p.m4v, width: 640, height: 480, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Road_to_Iron_Chef-480p.m4v
+svg: AbsoluteDestiny-Road_to_Iron_Chef.svg
+bgimg: AbsoluteDestiny-Road_to_Iron_Chef.jpg
 hd_stream: null
 tags:
     - collaboration
@@ -21,6 +23,8 @@ tags:
     - youhadtobethere
     - nospoilers
 vid_id: '023'
+mux: 01z01w9Rrwb01Yj8qzMaa2gVIkwHRby98Il
+yt_id: -Y4wp2aY2ik
 
 ---
 A parody video made for a panel at Anime Weekend Atlanta about the preparations for that year's Iron Chef contest.

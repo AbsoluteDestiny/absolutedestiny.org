@@ -14,6 +14,8 @@ downloads:
     - {url: AbsoluteDestiny-DDR_Project_2nd_Mix_Track_05_Boys-480p.m4v, width: 640, height: 352, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-DDR_Project_2nd_Mix_Track_05_Boys-480p.m4v
+svg: AbsoluteDestiny-DDR_Project_2nd_Mix_Track_05_Boys.svg
+bgimg: AbsoluteDestiny-DDR_Project_2nd_Mix_Track_05_Boys.jpg
 hd_stream: null
 tags:
     - anime
@@ -21,6 +23,7 @@ tags:
     - multieditorproject
     - nospoilers
 vid_id: '009'
+mux: HbiBBbm7TZydY21LpAn01cXWHFSQfQCJK
 
 ---
 I was asked at the last minute to do this particular track on the 2nd DDR Project. I agreed.

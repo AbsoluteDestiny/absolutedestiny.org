@@ -19,11 +19,15 @@ downloads:
     - {url: AbsoluteDestiny-Virtua_Anime_DDR_Project_4th_Mix_Track_50-480p.m4v, width: 640, height: 480, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Virtua_Anime_DDR_Project_4th_Mix_Track_50-480p.m4v
+svg: AbsoluteDestiny-Virtua_Anime_DDR_Project_4th_Mix_Track_50.svg
+bgimg: AbsoluteDestiny-Virtua_Anime_DDR_Project_4th_Mix_Track_50.jpg
 hd_stream: null
 tags:
     - anime
     - multieditorproject
 vid_id: '020'
+mux: SztxuoMHGLMRZiHQ4OH6IgkWxML2h7KP
+yt_id: wi9p4banuR0
 
 ---
 First and last time I used 3D models in a vid. This was painful to make and it took a seriously long time too. The result was fun though and at least I can say I've tried making 3D and made something enjoyable.

@@ -15,12 +15,16 @@ downloads:
     - {url: AbsoluteDestiny-Livin_in_the_Sunlight_Lovin_in_the_Moonlight-720p.m4v, width: 1280, height: 720, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Livin_in_the_Sunlight_Lovin_in_the_Moonlight-480p.m4v
+svg: AbsoluteDestiny-Livin_in_the_Sunlight_Lovin_in_the_Moonlight.svg
+bgimg: AbsoluteDestiny-Livin_in_the_Sunlight_Lovin_in_the_Moonlight.jpg
 hd_stream: AbsoluteDestiny-Livin_in_the_Sunlight_Lovin_in_the_Moonlight-720p.m4v
 tags:
     - liveaction
     - gift
     - youhadtobethere
 vid_id: '054'
+mux: MMY9EbZcRO9FSipixo02wnub9xv8HUnKU
+yt_id: GcKlZ5jaq7M
 
 ---
 Things that bother you, never bother me!

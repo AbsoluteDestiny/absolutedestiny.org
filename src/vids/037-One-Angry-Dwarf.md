@@ -14,11 +14,15 @@ downloads:
     - {url: AbsoluteDestiny-One_Angry_Dwarf-480p.m4v, width: 848, height: 336, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-One_Angry_Dwarf-480p.m4v
+svg: AbsoluteDestiny-One_Angry_Dwarf.svg
+bgimg: AbsoluteDestiny-One_Angry_Dwarf.jpg
 hd_stream: null
 tags:
     - pixar
     - spoilers
 vid_id: '037'
+mux: jhUbxAYPpq02rzfvS8XOdB8efqks011YtE
+yt_id: KhqoikADah8
 
 ---
 Buddy nee Syndrome.

@@ -13,13 +13,17 @@ song_info_url: 'http://ccs.wikia.com/wiki/List_of_Cardcaptor_Sakura_albums'
 downloads:
     - {url: AbsoluteDestiny-Magical_Dreamer-480p.m4v, width: 848, height: 480, mimetype: video/mp4}
     - {url: AbsoluteDestiny-Magical_Dreamer-480p-nosub.m4v, width: 848, height: 480, mimetype: video/mp4}
-srt: AbsoluteDestiny-MagicalDreamer.srt
+srt: AbsoluteDestiny-MagicalDreamer.vtt
 sd_stream: AbsoluteDestiny-Magical_Dreamer-480p-nosub.m4v
+svg: AbsoluteDestiny-Magical_Dreamer.svg
+bgimg: AbsoluteDestiny-Magical_Dreamer.jpg
 hd_stream: null
 tags:
     - disney
     - spoilers
 vid_id: '027'
+mux: XY99DCJ0055JzDoZ2uvfT027018ETcKSVZ9
+yt_id: uPjkyxOf0-A
 
 ---
 Noticing that Ariel was, effectively, an anime <a href="http://en.wikipedia.org/wiki/Magical_girl">Magical Girl</a> I made this vid to the 3rd Cardcaptor Sakura opening.

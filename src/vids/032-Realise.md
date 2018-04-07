@@ -14,11 +14,15 @@ downloads:
     - {url: AbsoluteDestiny-Realise-480p.m4v, width: 848, height: 480, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Realise-480p.m4v
+svg: AbsoluteDestiny-Realise.svg
+bgimg: AbsoluteDestiny-Realise.jpg
 hd_stream: null
 tags:
     - myfaves
     - liveaction
 vid_id: '032'
+mux: Jxay8M00JyUqH9hHj1Ywzpu4PCxHo3FEL
+yt_id: 0-5XTSD7HyQ
 
 ---
 Coming of age nostalgia found within a surprisingly enchanting Miike movie.

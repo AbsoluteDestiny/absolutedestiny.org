@@ -14,12 +14,16 @@ downloads:
     - {url: AbsoluteDestiny-Poor_Miyazawa_or_Monkey_Wrench-480p.m4v, width: 640, height: 480, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Poor_Miyazawa_or_Monkey_Wrench-480p.m4v
+svg: AbsoluteDestiny-Poor_Miyazawa_or_Monkey_Wrench.svg
+bgimg: AbsoluteDestiny-Poor_Miyazawa_or_Monkey_Wrench.jpg
 hd_stream: null
 tags:
     - anime
     - rockandmetal
     - capturecard
 vid_id: '002'
+mux: Urw8hXv02EnF4B5r4hV2ra5Ac1y02UBIeR
+yt_id: daf4pEjpKnI
 
 ---
 Kare Kano (as it is known) is such fun to make videos with due to the massive amounts of visual comedy. I later remastered this one a tiny tiny bit and added some, not particularly necessary, fancy additions and tweaked the timing a touch. Still a video I enjoy but technically flawed in many ways.

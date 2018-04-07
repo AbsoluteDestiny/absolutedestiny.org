@@ -15,12 +15,16 @@ downloads:
     - {url: AbsoluteDestiny-Doomsday-720p.m4v, width: 1280, height: 544, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Doomsday-480p.m4v
+svg: AbsoluteDestiny-Doomsday.svg
+bgimg: AbsoluteDestiny-Doomsday.jpg
 hd_stream: AbsoluteDestiny-Doomsday-720p.m4v
 tags:
     - spoilers
     - gift
     - youhadtobethere
 vid_id: '049'
+mux: mST7lhyYEUAThypzWDrhK02q9r01hXoCg3
+yt_id: 4bOFMmgO9bY
 
 ---
 Made during Festivids 2011/12 for fan_eunice.

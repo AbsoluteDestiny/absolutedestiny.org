@@ -14,12 +14,15 @@ downloads:
     - {url: AbsoluteDestiny-Deep_Kick-480p.m4v, width: 848, height: 480, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Deep_Kick-480p.m4v
+svg: AbsoluteDestiny-Deep_Kick.svg
+bgimg: AbsoluteDestiny-Deep_Kick.jpg
 hd_stream: null
 tags:
     - rockandmetal
     - myfaves
     - liveaction
 vid_id: '043'
+mux: oswjUjuxbAc028elZsP4z02ZzeuaK1R9K9
 
 ---
 brothersbloodcomradespartnerfamilycuzz

@@ -14,12 +14,15 @@ downloads:
     - {url: AbsoluteDestiny-Eternity_in_Black-480p.m4v, width: 848, height: 480, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Eternity_in_Black-480p.m4v
+svg: AbsoluteDestiny-Eternity_in_Black.svg
+bgimg: AbsoluteDestiny-Eternity_in_Black.jpg
 hd_stream: null
 tags:
     - liveaction
     - spoilers
     - youhadtobethere
 vid_id: '031'
+mux: S9jQDjJ7xXPFZhfBUF4h46A4i0101WfaTE
 
 ---
 I tried but ultimately this vid was just plain boring. Oh well.

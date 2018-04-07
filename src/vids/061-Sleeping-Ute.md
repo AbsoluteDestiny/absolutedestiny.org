@@ -16,11 +16,15 @@ downloads:
     - {url: AbsoluteDestiny-Sleeping_Ute-720p.m4v, width: 1280, height: 688, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Sleeping_Ute-480p.m4v
+svg: AbsoluteDestiny-Sleeping_Ute.svg
+bgimg: AbsoluteDestiny-Sleeping_Ute.jpg
 hd_stream: AbsoluteDestiny-Sleeping_Ute-720p.m4v
 tags:
     - liveaction
     - spoilers
 vid_id: '061'
+mux: AzXtl5Irm1VTxNlwcnNZBMgb5cEiWqN02
+yt_id: kScml0kc2pQ
 
 ---
 But I can't help myself...

@@ -14,11 +14,15 @@ downloads:
     - {url: AbsoluteDestiny-Alice_in_Wonderland-480p.m4v, width: 640, height: 272, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Alice_in_Wonderland-480p.m4v
+svg: AbsoluteDestiny-Alice_in_Wonderland.svg
+bgimg: AbsoluteDestiny-Alice_in_Wonderland.jpg
 hd_stream: null
 tags:
     - liveaction
     - spoilers
 vid_id: '038'
+mux: UMWmwbOKOYpIrwr00KmcRIMfvtpacmEnW
+yt_id: mZHhnXGRGeo
 
 ---
 A short parody made one lazy morning.

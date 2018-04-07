@@ -13,6 +13,8 @@ song_info_url: 'https://secure.wikimedia.org/wikipedia/en/wiki/Nevermind'
 downloads: []
 srt: null
 sd_stream: null
+svg: null
+bgimg: null
 hd_stream: null
 tags:
     - anime

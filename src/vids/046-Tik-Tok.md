@@ -15,12 +15,15 @@ downloads:
     - {url: AbsoluteDestiny-Tik_Tok-720p.m4v, width: 1280, height: 692, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Tik_Tok-480p.m4v
+svg: AbsoluteDestiny-Tik_Tok.svg
+bgimg: AbsoluteDestiny-Tik_Tok.jpg
 hd_stream: AbsoluteDestiny-Tik_Tok-720p.m4v
 tags:
     - liveaction
     - spoilers
     - youhadtobethere
 vid_id: '046'
+mux: BfZ8uE5tPFVx0201zw5gDgs4FqxtD001FPL
 
 ---
 Listen, let me ask you a question. You ever fuck a mutant?

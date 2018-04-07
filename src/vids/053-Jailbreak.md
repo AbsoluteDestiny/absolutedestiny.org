@@ -17,13 +17,17 @@ downloads:
     - {url: AbsoluteDestiny-Jailbreak-720p.m4v, width: 1280, height: 544, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Jailbreak-480p.m4v
+svg: AbsoluteDestiny-Jailbreak.svg
+bgimg: AbsoluteDestiny-Jailbreak.jpg
 hd_stream: AbsoluteDestiny-Jailbreak-720p.m4v
+mux: hnw7T01yZX00x6txl02unAfu4nTlHfuA3Gk
 tags:
     - rockandmetal
     - spoilers
     - gift
     - liveaction
 vid_id: '053'
+yt_id: -UJb1zf8jWc
 
 ---
 The criminal hi-jinx of the rebel scum. For colls, Festivids 2011/12

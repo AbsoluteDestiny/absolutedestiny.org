@@ -21,10 +21,13 @@ downloads:
     - {url: AbsoluteDestiny-Revenge-480p.m4v, width: 848, height: 480, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Revenge-480p.m4v
+svg: AbsoluteDestiny-Revenge.svg
+bgimg: AbsoluteDestiny-Revenge.jpg
 hd_stream: null
 tags:
     - liveaction
 vid_id: '034'
+mux: ynUemrlHmwmMwRPXazngObTXe3K9cP7A
 
 ---
 A visual canon of exploitation movie revenge.

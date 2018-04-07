@@ -14,12 +14,15 @@ downloads:
     - {url: AbsoluteDestiny-Heart_of_Funkness-480p.m4v, width: 848, height: 384, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Heart_of_Funkness-480p.m4v
+svg: AbsoluteDestiny-Heart_of_Funkness.svg
+bgimg: AbsoluteDestiny-Heart_of_Funkness.jpg
 hd_stream: null
 tags:
     - myfaves
     - liveaction
     - spoilers
 vid_id: '036'
+mux: UefDOdQ00dQ5xLTc0101Mn8w6yVtYrwSBEl
 
 ---
 Tribal homo-eroticism, war and paranoia. Kurtz throws a hell of a party.

@@ -15,12 +15,16 @@ downloads:
     - {url: AbsoluteDestiny-Pop_Galaxy-720p.m4v, width: 1280, height: 720, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Pop_Galaxy-480p.m4v
+svg: AbsoluteDestiny-Pop_Galaxy.svg
+bgimg: AbsoluteDestiny-Pop_Galaxy.jpg
 hd_stream: AbsoluteDestiny-Pop_Galaxy-720p.m4v
 tags:
     - spoilers
     - gift
     - videogame
 vid_id: '064'
+mux: J01DG029rb7pSiBnf02hF1DrUZg56PRAyWq
+yt_id: aGrNRlT-sK4
 
 ---
 Come on rock my world (for eruthros)

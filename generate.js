@@ -29,44 +29,47 @@ const permalinks = require("metalsmith-permalinks");
 const replace = require("metalsmith-text-replace");
 const sitemap = require("metalsmith-sitemap");
 const subsetfonts = require("metalsmith-subsetfonts");
+const inlineSource = require("metalsmith-inline-source");
+const sharp = require("metalsmith-sharp");
+// const sqip = require("sqip");
 // const tags = require("metalsmith-tags");
 // const watch = require("metalsmith-watch");
 
 const sitedata = frontmatter(fs.readFileSync('./src/config/sitedata.md', "utf8")).attributes;
 
-console.log(sitedata);
+// console.log(sitedata);
 
 let nextId = 0;
 
 nunjucks.configure("./layouts", { watch: false, noCache: true });
 
-function getFandoms() {
-  return (files, metalsmith, done) => {
-    const fandoms = [];
-    Object.keys(files)
-      .filter(f => path.extname(f) === ".md")
-      .forEach(file => {
-        const fm = frontmatter(
-          fs.readFileSync(path.join(metalsmith._source, file), "utf8")
-        );
-        nextId = Number.isNaN(Number(fm.attributes.vid_id))
-          ? nextId
-          : Number(fm.attributes.vid_id);
-        console.log(fm.attributes.footage)
-        // if (fm.attributes.fandoms) {
-        //   const fandoms = fm.attributes.fandoms.toString().split(", ");
-        //   for (fandom of fandoms) {
-        //     if (fandoms.indexOf(fandom) < 0) {
-        //       fandoms.push(fandom);
-        //     }
-        //   }
-        // }
-      });
-    fandoms.sort();
-    // metalsmith._metadata.tags = fandoms;
-    setImmediate(done);
-  };
-}
+// function getFandoms() {
+//   return (files, metalsmith, done) => {
+//     const fandoms = [];
+//     Object.keys(files)
+//       .filter(f => path.extname(f) === ".md")
+//       .forEach(file => {
+//         const fm = frontmatter(
+//           fs.readFileSync(path.join(metalsmith._source, file), "utf8")
+//         );
+//         nextId = Number.isNaN(Number(fm.attributes.vid_id))
+//           ? nextId
+//           : Number(fm.attributes.vid_id);
+//         console.log(fm.attributes.footage)
+//         // if (fm.attributes.fandoms) {
+//         //   const fandoms = fm.attributes.fandoms.toString().split(", ");
+//         //   for (fandom of fandoms) {
+//         //     if (fandoms.indexOf(fandom) < 0) {
+//         //       fandoms.push(fandom);
+//         //     }
+//         //   }
+//         // }
+//       });
+//     fandoms.sort();
+//     // metalsmith._metadata.tags = fandoms;
+//     setImmediate(done);
+//   };
+// }
 
 Metalsmith(process.cwd())
   .metadata({
@@ -94,6 +97,23 @@ Metalsmith(process.cwd())
       }
     })
   )
+  // .use(
+  //   sharp({
+  //     src: "**/*.svg",
+  //     namingPattern: "{dir}{name}-og.jpg",
+  //     methods: [
+  //       {
+  //         name: "resize",
+  //         args: [1200, 630]
+  //       },
+  //       {
+  //         name: "toFormat",
+  //         args: ["jpeg"]
+  //       }
+  //     ],
+  //     moveFile: false
+  //   })
+  // )
   .use(
     copy({
       pattern: "assets/**/*.*",
@@ -119,7 +139,7 @@ Metalsmith(process.cwd())
       }
     })
   )
-  .use(getFandoms())
+  // .use(getFandoms())
   .use(
     replace({
       "admin/config.yml": {
@@ -155,8 +175,9 @@ Metalsmith(process.cwd())
   )
   .use(
     fileMetadata([
+      { pattern: "**", metadata: { layout: "home.njk" } },
       { pattern: "vids/**", metadata: { layout: "vid.njk" } },
-      { pattern: "vidplayer/**", metadata: { layout: "vid.njk" } }
+      { pattern: "vidplayer/**", metadata: { layout: "vidplayer.njk" } }
     ])
   )
   .use(
@@ -165,19 +186,14 @@ Metalsmith(process.cwd())
         pattern: "vids/*.md",
         sortBy: "date",
         reverse: true
-      },
-      vidplayer: {
-        pattern: "vidplayer/*.md",
-        sortBy: "date",
-        reverse: true
       }
     })
   )
   .use(markdown())
   .use(
     permalinks({
-      pattern: "post/:date/:title",
-      date: "YYYY/MM/DD",
+      // pattern: "post/:date/:title",
+      // date: "YYYY/MM/DD",
 
       linksets: [
         {
@@ -196,7 +212,12 @@ Metalsmith(process.cwd())
       collection: "vids"
     })
   )
-  .use(paths({ property: "paths" }))
+  .use(
+    paths({
+      property: "paths",
+      directoryIndex: "index.html"
+    })
+  )
   .use(
     layouts({
       engine: "nunjucks",
@@ -209,19 +230,30 @@ Metalsmith(process.cwd())
     })
   )
   .use(subsetfonts())
-  // .use(
-  //   htmlMinifier({
-  //     removeAttributeQuotes: false,
-  //     removeEmptyAttributes: false
-  //   })
-  // )
+  .use(
+    inlineSource({
+      swallowErrors: true
+    })
+  )
+  .use(
+    htmlMinifier({
+      removeAttributeQuotes: false,
+      removeEmptyAttributes: false
+    })
+  )
   .use(
     sitemap({
       hostname: sitedata.url,
       omitIndex: true
     })
   )
-  .build((err) => {
+  // .use(
+  //   browserSync({
+  //     server: "./build",
+  //     files: ["src/**/*.*", "layouts/*.*"]
+  //   })
+  // )
+  .build(err => {
     if (err) {
       throw err;
     }

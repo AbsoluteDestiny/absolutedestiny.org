@@ -18,6 +18,8 @@ downloads:
     - {url: AbsoluteDestiny-The_Magic_of_Flight-480p.m4v, width: 640, height: 480, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-The_Magic_of_Flight-480p.m4v
+svg: AbsoluteDestiny-The_Magic_of_Flight.svg
+bgimg: AbsoluteDestiny-The_Magic_of_Flight.jpg
 hd_stream: null
 tags:
     - anime
@@ -25,6 +27,8 @@ tags:
     - capturecard
     - nospoilers
 vid_id: '024'
+mux: VlhiNV99TB1JEbO2oaQeyBW7tnzRgetb
+yt_id: gOdf1SOk-qs
 
 ---
 The video I edited at Iron Chef, in 2 hours, with a program I'd never used before. It was hell and I didn't know the source footage well enough.

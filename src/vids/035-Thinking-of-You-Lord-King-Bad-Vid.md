@@ -16,11 +16,15 @@ downloads:
     - {url: AbsoluteDestiny-Thinking_of_You-480p.m4v, width: 640, height: 246, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Thinking_of_You-480p.m4v
+svg: AbsoluteDestiny-Thinking_of_You.svg
+bgimg: AbsoluteDestiny-Thinking_of_You.jpg
 hd_stream: null
 tags:
     - liveaction
     - youhadtobethere
 vid_id: '035'
+mux: UXeREeCwZvOS36frB02LA6jg4Yb4aoB9l
+yt_id: _yuCLyxJIS0
 
 ---
 Made during <a href="http://fanlore.org/wiki/Vividcon/Vividcon_2005">Vividcon 2005</a> for the Lord King Bad Vid party.

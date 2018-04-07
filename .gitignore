@@ -58,5 +58,6 @@ typings/
 .env
 
 build/
+ignore/
 mp4/
 alldata20170919.json
