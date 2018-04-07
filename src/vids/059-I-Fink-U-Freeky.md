@@ -13,8 +13,8 @@ song: 'I Fink U Freeky'
 artist: 'Die Antwoord'
 song_info_url: 'http://en.wikipedia.org/wiki/Ten$Ion'
 downloads:
-    - {url: AbsoluteDestiny-I_Fink_U_Freeky.m4v, width: 888, height: 480, mimetype: video/mp4}
-    - {url: AbsoluteDestiny-I_Fink_U_Freeky.m4v, width: 1280, height: 688, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-I_Fink_U_Freeky-480p.m4v, title: '480p mp4', width: 888, height: 480, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-I_Fink_U_Freeky-720p.m4v, title: '720p mp4', width: 1280, height: 688, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-I_Fink_U_Freeky.m4v
 svg: AbsoluteDestiny-I_Fink_U_Freeky.svg
