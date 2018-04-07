@@ -14,10 +14,14 @@ downloads:
     - {url: AbsoluteDestiny-Blues_Driven_Naota_Instant_Music_Video-480p.m4v, width: 640, height: 480, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Blues_Driven_Naota_Instant_Music_Video-480p.m4v
+svg: AbsoluteDestiny-Blues_Driven_Naota_Instant_Music_Video.svg
+bgimg: AbsoluteDestiny-Blues_Driven_Naota_Instant_Music_Video.jpg
 hd_stream: null
 tags:
     - anime
 vid_id: '004'
+mux: 1mljLiywyrIpnRjOfurO3r02S01rtH1885
+yt_id: ODL2u10sqOg
 
 ---
 Made for an instructional panel on making music videos at MinamiCon 2002 and hence contains a lot of techniques which may or may not be appropriate for this video.

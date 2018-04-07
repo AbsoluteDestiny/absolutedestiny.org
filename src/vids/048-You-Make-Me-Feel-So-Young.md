@@ -15,12 +15,16 @@ downloads:
     - {url: AbsoluteDestiny-You_Make_Me_Feel_So_Young-720p.m4v, width: 1216, height: 720, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-You_Make_Me_Feel_So_Young-480p.m4v
+svg: AbsoluteDestiny-You_Make_Me_Feel_So_Young.svg
+bgimg: AbsoluteDestiny-You_Make_Me_Feel_So_Young.jpg
 hd_stream: AbsoluteDestiny-You_Make_Me_Feel_So_Young-720p.m4v
 tags:
     - liveaction
     - disney
     - gift
 vid_id: '048'
+mux: dDaw46qMEHoE63vwVzdjPeDYxKHDVVF4
+yt_id: 2HMJN_3o2eg
 
 ---
 Made during Festivids 2011/12 for stephantom

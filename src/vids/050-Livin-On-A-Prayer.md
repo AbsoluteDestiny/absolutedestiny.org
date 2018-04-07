@@ -16,6 +16,8 @@ downloads:
     - {url: AbsoluteDestiny-Livin_On_A_Prayer-720p.m4v, width: 1280, height: 688, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Livin_On_A_Prayer-480p.m4v
+svg: AbsoluteDestiny-Livin_On_A_Prayer.svg
+bgimg: AbsoluteDestiny-Livin_On_A_Prayer.jpg
 hd_stream: AbsoluteDestiny-Livin_On_A_Prayer-720p.m4v
 tags:
     - rockandmetal
@@ -23,6 +25,8 @@ tags:
     - gift
     - liveaction
 vid_id: '050'
+mux: RZlGXFwPPg6p56iyyLOdV6jnTpnVHjT8
+yt_id: 04qilZNarOo
 
 ---
 You live for the fight when it's all that you got.

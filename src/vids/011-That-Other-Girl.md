@@ -13,12 +13,15 @@ song_info_url: 'https://secure.wikimedia.org/wikipedia/en/wiki/Painted_from_Memo
 downloads: []
 srt: null
 sd_stream: null
+svg: 'AbsoluteDestiny-That_Other_Girl.svg'
+bgimg: 'AbsoluteDestiny-That_Other_Girl.jpg'
 hd_stream: null
 tags:
     - anime
     - youhadtobethere
     - nospoilers
 vid_id: '011'
+mux: 3sdFSLvMqRrgiLbZPBjKWuupCskoAwe01
 
 ---
 It makes sense if you know the show, honestly.

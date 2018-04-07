@@ -13,14 +13,19 @@ artist: 'Hard ''n'' Phirm'
 song_info_url: 'http://en.wikipedia.org/wiki/Horses_and_Grasses'
 downloads:
     - {url: AbsoluteDestiny-Rodeohead-480p_1.m4v, width: 848, height: 416, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Rodeohead-1080p.m4v, width: 848, height: 416, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Rodeohead-480p_1.m4v
+svg: AbsoluteDestiny-Rodeohead.svg
+bgimg: AbsoluteDestiny-Rodeohead.jpg
 hd_stream: null
 tags:
     - myfaves
     - liveaction
     - spoilers
 vid_id: '042'
+mux: kIU01ujllsoFGMrxKQvhgnGx7600cwfnh7
+yt_id: CMM0-DLSA7k
 
 ---
 My interpretation of the canon of 'Firefly' told through bluegrass covers of Radiohead songs.

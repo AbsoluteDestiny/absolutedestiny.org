@@ -14,10 +14,13 @@ downloads:
     - {url: AbsoluteDestiny-Age_Like_Wine-480p.m4v, width: 1024, height: 720, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Age_Like_Wine-480p.m4v
+svg: AbsoluteDestiny-Age_Like_Wine.svg
+bgimg: AbsoluteDestiny-Age_Like_Wine.jpg
 hd_stream: null
 tags:
     - youhadtobethere
 vid_id: '062'
+mux: k2HhbhmD6Gw6Dpq7Pb02cR00tWaaYHQGv1
 
 ---
 too late to die young now

@@ -15,11 +15,15 @@ downloads:
     - {url: AbsoluteDestiny-May_I_Suggest-720p.m4v, width: 1280, height: 720, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-May_I_Suggest-480p.m4v
+svg: AbsoluteDestiny-May_I_Suggest.svg
+bgimg: AbsoluteDestiny-May_I_Suggest.jpg
 hd_stream: AbsoluteDestiny-May_I_Suggest-720p.m4v
 tags:
     - pixar
     - spoilers
 vid_id: '047'
+mux: IXeFKUaoMMV8rwx9TT4GAlacmIkGLwdp
+yt_id: 5VuthSQNFvk
 
 ---
 The best part of your life.

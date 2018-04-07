@@ -14,12 +14,16 @@ downloads:
     - {url: AbsoluteDestiny-DDR_Project_5th_Mix_Rhythm__Police-480p_1.m4v, width: 848, height: 480, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-DDR_Project_5th_Mix_Rhythm__Police-480p_1.m4v
+svg: AbsoluteDestiny-DDR_Project_5th_Mix_Rhythm__Police.svg
+bgimg: AbsoluteDestiny-DDR_Project_5th_Mix_Rhythm__Police.jpg
 hd_stream: null
 tags:
     - anime
     - collaboration
     - multieditorproject
 vid_id: '030'
+mux: 00lV9Kv1twDE8QEA8zATUVQ21AT5IX005G
+yt_id: zSvBcnaEbp8
 
 ---
 My 3rd DDR Project vid, this time a collaboration with AMV editor <a href="http://www.jhgfd.com/" title="Jeff Heller Graphic and Function Design">Gambitt</a>.

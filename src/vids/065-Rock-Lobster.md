@@ -16,6 +16,8 @@ downloads:
     - {url: AbsoluteDestiny-Rock_Lobster-720p.m4v, width: 960, height: 720, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Rock_Lobster-480p.m4v
+svg: AbsoluteDestiny-Rock_Lobster.svg
+bgimg: AbsoluteDestiny-Rock_Lobster.jpg
 hd_stream: AbsoluteDestiny-Rock_Lobster-1080p.m4v
 tags:
     - gift
@@ -23,6 +25,8 @@ tags:
     - spoilers
     - liveaction
 vid_id: '065'
+mux: SkCHl8zCCit901ReJ5nEZcPcRPvBb77yu
+yt_id: ywDpJOe-GsA
 
 ---
 for Jetpack Monkey

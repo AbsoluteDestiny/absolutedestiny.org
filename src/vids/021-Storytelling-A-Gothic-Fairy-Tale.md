@@ -14,10 +14,14 @@ downloads:
     - {url: AbsoluteDestiny-A_Gothic_Fairy_Tale-480p.m4v, width: 640, height: 352, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-A_Gothic_Fairy_Tale-480p.m4v
+svg: AbsoluteDestiny-A_Gothic_Fairy_Tale.svg
+bgimg: AbsoluteDestiny-A_Gothic_Fairy_Tale.jpg
 hd_stream: null
 tags:
     - anime
 vid_id: '021'
+mux: lEfbV7vHQbVgV4MIjilr8q99NFaT25ho
+yt_id: G6UCqMdwMAs
 
 ---
 Essentially a rewrite of an excellent but rare short animated feature, this video was made to show off this gorgeous footage and uses pretty much every scene from the anime. Didn't expect this to be so successful.

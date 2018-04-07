@@ -15,12 +15,16 @@ downloads:
     - {url: AbsoluteDestiny-Papas_Got_A_Brand_New_Bag-720p.m4v, width: 1280, height: 720, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Papas_Got_A_Brand_New_Bag-480p.m4v
+svg: AbsoluteDestiny-Papas_Got_A_Brand_New_Bag.svg
+bgimg: AbsoluteDestiny-Papas_Got_A_Brand_New_Bag.jpg
 hd_stream: AbsoluteDestiny-Papas_Got_A_Brand_New_Bag-720p.m4v
 tags:
     - liveaction
     - gift
     - nospoilers
 vid_id: '051'
+mux: dk02H4gk3sg601kSw3tI2Fpg00h9uu4MNVZ
+yt_id: nnvsM2GSbqQ
 
 ---
 For Gianduja Kiss, Festivids 2011/12

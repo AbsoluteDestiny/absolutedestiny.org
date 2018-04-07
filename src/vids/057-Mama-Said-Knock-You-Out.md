@@ -16,12 +16,15 @@ downloads:
     - {url: AbsoluteDestiny-Mama_Said_Knock_You_Out-720p.m4v, width: 1280, height: 720, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Mama_Said_Knock_You_Out-480p.m4v
+svg: AbsoluteDestiny-Mama_Said_Knock_You_Out.svg
+bgimg: AbsoluteDestiny-Mama_Said_Knock_You_Out.jpg
 hd_stream: AbsoluteDestiny-Mama_Said_Knock_You_Out-720p.m4v
 tags:
     - anime
     - spoilers
     - gift
 vid_id: '057'
+mux: 8vhjswnFXoq02SL7ncxyj02004K7U9dDpcR
 
 ---
 for Voleuse with special thanks to Eunice and Big Big Truck

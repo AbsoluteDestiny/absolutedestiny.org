@@ -15,6 +15,8 @@ downloads:
     - {url: AbsoluteDestiny-Ballroom_Blitz-720p.m4v, width: 1280, height: 528, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Ballroom_Blitz-480p.m4v
+svg: AbsoluteDestiny-Ballroom_Blitz.svg
+bgimg: AbsoluteDestiny-Ballroom_Blitz.jpg
 hd_stream: AbsoluteDestiny-Ballroom_Blitz-720p.m4v
 tags:
     - rockandmetal
@@ -22,6 +24,8 @@ tags:
     - gift
     - liveaction
 vid_id: '052'
+mux: 6RdhuXYFLsuePJbjvmDexsaI4CqDGy1R
+yt_id: kfHYwSH26ts
 
 ---
 For SDWolfpup, Festivids 2011/12

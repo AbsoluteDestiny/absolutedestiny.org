@@ -17,6 +17,8 @@ downloads:
     - {url: AbsoluteDestiny-I_Enjoy_Being_a_Girl-480p.m4v, width: 640, height: 480, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-I_Enjoy_Being_a_Girl-480p.m4v
+svg: AbsoluteDestiny-I_Enjoy_Being_a_Girl.svg
+bgimg: AbsoluteDestiny-I_Enjoy_Being_a_Girl.jpg
 hd_stream: null
 tags:
     - gift
@@ -24,6 +26,8 @@ tags:
     - liveaction
     - nospoilers
 vid_id: '040'
+mux: o01ABVPl2gK4y1MP00NrwlPsHpj2ZzgJx00
+yt_id: PUMvjgSzLAw
 
 ---
 Made for the <a href="http://fanlore.org/wiki/Vividcon/Vividcon_2006">Vividcon 2006</a> auction for Par Avion, a simple look at some role-model female TV characters.

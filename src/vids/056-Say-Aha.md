@@ -16,12 +16,16 @@ downloads:
     - {url: AbsoluteDestiny-Say_Aha-fixed-720p.m4v, width: 1280, height: 608, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Say_Aha-fixed-480p.m4v
+svg: AbsoluteDestiny-Say_Aha-fixed.svg
+bgimg: AbsoluteDestiny-Say_Aha-fixed.jpg
 hd_stream: AbsoluteDestiny-Say_Aha-fixed-720p.m4v
 tags:
     - liveaction
     - spoilers
     - gift
 vid_id: '056'
+mux: S5006PQjymXL9LRRn64R4VUGzGfsn1BDR
+ty_id: ijE09_HcLVw
 
 ---
 Louder than they allow, allow

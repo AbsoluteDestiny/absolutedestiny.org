@@ -14,12 +14,16 @@ downloads:
     - {url: AbsoluteDestiny-Wired_Hypnosis-480p.m4v, width: 640, height: 480, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Wired_Hypnosis-480p.m4v
+svg: AbsoluteDestiny-Wired_Hypnosis.svg
+bgimg: AbsoluteDestiny-Wired_Hypnosis.jpg
 hd_stream: null
 tags:
     - anime
     - youhadtobethere
     - nospoilers
 vid_id: '016'
+mux: ggiaPZIGKnAPVr8L1PWettSNIGmbraq6
+yt_id: 605E5ncr68s
 
 ---
 Part two of the Dinosaur Studios pretence. Works really well in a big audience.

@@ -14,11 +14,15 @@ downloads:
     - {url: AbsoluteDestiny-Gold_Digger-480p.m4v, width: 640, height: 480, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Gold_Digger-480p.m4v
+svg: AbsoluteDestiny-Gold_Digger.svg
+bgimg: AbsoluteDestiny-Gold_Digger.jpg
 hd_stream: null
 tags:
     - liveaction
     - spoilers
 vid_id: '041'
+mux: fpuQREiKurncW8rje1PNoS54Cp9YFS9l
+yt_id: lnRVIBJmshY
 
 ---
 Scarlett O'Hara, proto-feminist? manipulator? tragic lovesick fool? Caution: blind appropriation causes unintended but entirely predictable race issues.

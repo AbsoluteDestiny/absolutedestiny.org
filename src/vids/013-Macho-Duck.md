@@ -15,6 +15,8 @@ downloads:
     - {url: AbsoluteDestiny-Macho_Duck-480p.m4v, width: 640, height: 480, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Macho_Duck-480p.m4v
+svg: AbsoluteDestiny-Macho_Duck.svg
+bgimg: AbsoluteDestiny-Macho_Duck.jpg
 hd_stream: null
 tags:
     - disney
@@ -23,6 +25,8 @@ tags:
     - multieditorproject
     - nospoilers
 vid_id: '013'
+mux: YdTI5iC54KM5xsP4NRpccWWU00wvGxFoZ
+yt_id: ZRbqmnypzrM
 
 ---
 Another situation where I was helping out a multi editor project. This time to a 4 minute song about Donald Duck. Ugh.

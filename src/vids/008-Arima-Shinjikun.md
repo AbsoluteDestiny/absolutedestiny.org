@@ -15,12 +15,16 @@ downloads:
     - {url: AbsoluteDestiny-Arima_Shinjikun-480p.m4v, width: 640, height: 480, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Arima_Shinjikun-480p.m4v
+svg: AbsoluteDestiny-Arima_Shinjikun.svg
+bgimg: AbsoluteDestiny-Arima_Shinjikun.jpg
 hd_stream: null
 tags:
     - anime
     - myfaves
     - nospoilers
 vid_id: '008'
+mux: xyMwPNxp8L2fSizjhZnK1KMBB7cgwH72
+yt_id: GdY8K9RkTqo
 
 ---
 This video is a character profile of two characters from animations directed by Hideaki Anno done in the style of his post-Nadia work. As such, it's very stylised and not to everyone's taste. Despite being essentially an experimental video, it was very well received and is one of my favourites.

@@ -14,10 +14,14 @@ downloads:
     - {url: AbsoluteDestiny-Burn-480p.m4v, width: 800, height: 300, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Burn-480p.m4v
+svg: AbsoluteDestiny-Burn.svg
+bgimg: AbsoluteDestiny-Burn.jpg
 hd_stream: null
 tags:
     - liveaction
 vid_id: '022'
+mux: 6eFqMFUZYYaAts7fNmU8wddFtVWdJ7Oa
+yt_id: eOg_n-zvIZk
 
 ---
 The first live action video. Very static editing-wise, really just a collection of colours and nicely framed character shots.

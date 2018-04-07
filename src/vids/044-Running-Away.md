@@ -13,14 +13,18 @@ song_info_url: 'https://secure.wikimedia.org/wikipedia/en/wiki/The_Fragile_Army'
 downloads:
     - {url: AbsoluteDestiny-Running_Away-480p.m4v, width: 848, height: 352, mimetype: video/mp4}
     - {url: AbsoluteDestiny-Running_Away-720p.m4v, width: 1280, height: 528, mimetype: video/mp4}
-srt: AbsoluteDestiny-RunningAway.srt
+srt: AbsoluteDestiny-RunningAway.vtt
 sd_stream: AbsoluteDestiny-Running_Away-480p.m4v
+svg: AbsoluteDestiny-Running_Away.svg
+bgimg: AbsoluteDestiny-Running_Away.jpg
 hd_stream: AbsoluteDestiny-Running_Away-720p.m4v
 tags:
     - myfaves
     - liveaction
     - spoilers
 vid_id: '044'
+mux: Tm6LMvHkxbib3WfMSiBDrpguavYLTL6u
+yt_id: SpsZRLxUHtg
 
 ---
 Growing-up, imagination, friendship, making fun stuff.

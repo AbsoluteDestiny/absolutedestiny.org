@@ -15,12 +15,16 @@ downloads:
     - {url: AbsoluteDestiny-Raise_Your_Weapon-720p.m4v, width: 1280, height: 720, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Raise_Your_Weapon-480p.m4v
+svg: AbsoluteDestiny-Raise_Your_Weapon.svg
+bgimg: AbsoluteDestiny-Raise_Your_Weapon.jpg
 hd_stream: AbsoluteDestiny-Raise_Your_Weapon-720p.m4v
 tags:
     - spoilers
     - gift
     - videogame
 vid_id: '058'
+mux: a0132QC9Gbn00Ju38FZeGM5Z2O011Gj01gcs
+ty_id: kMgjnwPnSRA
 
 ---
 one word and it's over

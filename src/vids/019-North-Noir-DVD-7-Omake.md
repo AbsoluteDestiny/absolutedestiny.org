@@ -14,11 +14,14 @@ downloads:
     - {url: AbsoluteDestiny-North-480p.m4v, width: 640, height: 352, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-North-480p.m4v
+svg: AbsoluteDestiny-North.svg
+bgimg: AbsoluteDestiny-North.jpg
 hd_stream: null
 tags:
     - anime
     - nospoilers
 vid_id: '019'
+mux: 4a2jaFKTYI9002fAiO6viedgDCMr7kOmB
 
 ---
 This video was commissioned by ADV for their DVD release of the anime <cite>Noir</cite>. No special effects or distinctive digital manipulations could be used and no changes to the song choice or cut.

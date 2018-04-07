@@ -1,9 +1,193 @@
-{% extends "base.njk" %}
+{% extends "base.njk" %}}
 
 {% block main %}
-    {{contents | safe}}
+    <img inline id="bgsvg" preserveAspectRatio="xMinYMin slice" class="c-bg-svg c-bg-svg--backup" src="src/media/bg3.svg" style="opacity: 1">
+    <img class="c-bg-img" data-vid-img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" onload="this.classList.add('is-loaded')">
+    <div class="u-relative">
+        <div class="l-container">
+            <header class="c-header">
+                <h1 class="c-header__heading">{{site.title}}</h1>
+            </header>
+        </div>
+        <nav class="c-vid-grid">
+            {% for vid in vids %}
+                {% if vid.downloads | length %}
+                    {% set active = " is-active" if  (vid_id == vid.vid_id)  else "" %}
+                    <a data-navigo href="{{vid.paths.href}}" class="c-vid{{active}}" data-vid="{{vid.vid_id}}" data-svg="/media/{{vid.svg}}" data-img="/media/{{vid.bgimg}}" data-muxid="{{vid.mux}}" data-srt="{{vid.srt}}" data-meta-title="{{vid.title}}" data-meta-description="A fanwork by AbsoluteDestiny to '{{vid.song}}' by {{vid.artist}} using {{vid.footage | join(', ')}}">
+                        <img inline data-vid-svg id="svg-{{vid.vid_id}}" class="c-vid__image" src="src/media/{{vid.svg}}" alt="{{vid.title}}">
+                        <div class="c-vid__details">
+                            <div class="c-vid__title">{{vid.title}}</div>
+                            <div class="c-vid__footage">Footage: {% if (vid.footage | length) > 3 %}{{vid.footage | slice(3) | first | join(', ')}}…{% else %}{{vid.footage | join(', ')}}{% endif %}</div>
+                        </div>
+                    </a>
+                {% endif %}
+            {% endfor %}
+        </nav>
+        <div class="l-details">
+            <a href="/" class="c-backnav" data-navigo><span class="c-backnav__link">⬅ back to vids</span><span class="c-backnav__title">{{site.title}}</span></a>
+            {% for vid in vids %}
+                {% set active = " is-active" if vid_id == vid.vid_id  else "" %}
+                {% set regExp = r/\d{3,4}p/g %}
+                <section class="c-details" data-vid-details="{{vid.vid_id}}">
+                    <header class="c-details__header">
+                        <h1 class="c-details__heading">{{vid.title}}</h1>
+                        
+                    </header>
+                    {% if vid.downloads | length %}
+                        <div class="c-details__downloads"><span class="u-font-header">Downloads:</span>
+                        {% for dl in vid.downloads %}
+                            <a class="c-details__download" href="{{site.vid_cdn}}{{dl.url}}">{{dl.url | replace('.m4v', '') | replace(r/[^14780p]+/, '')}} mp4</a>
+                        {% endfor %}</div>
+                    {% endif %}
+                    <div class="c-details__footage"><span class="u-font-header">Footage:</span> {{vid.footage}}</div>
+                    <div class="c-details__music"><span class="u-font-header">Audio:</span> {{vid.song}} by {{vid.artist}}</div>
+                    <div class="c-details__description">{{vid.description|safe}}</div>
+                </section>
+            {% endfor %}
+            <section class="c-video">
+                <video preload="auto" id="videoPlayer" controls crossorigin>
+                </video>
+            </section>
+        </div>
+        
+    </div>
+{% endblock %}
 
-    {% for post in vids %}
-    {{post.title}} 
-    {% endfor %}
+{% block scripts %}
+<script>
+    {% include 'script-externals.njk' %}
+    ;(function(){
+        var svgPaths = {};
+        var _svgDuration = 1;
+        var _lastX = 0;
+        var _lastY = 0;
+        var _playerContainer = document.querySelector('.c-video');
+        var _player = document.getElementById("videoPlayer");
+        var hls;
+        player = new Plyr(_player);
+        if (Hls.isSupported()) {
+            hls = new Hls();
+        }
+        function getPathData(svg) {
+            var data = []
+            Array.prototype.forEach.call(svg.querySelectorAll('path'), function(path) {
+                data.push({
+                    fill: path.getAttribute('fill') || 'transparent',
+                    d: path.getAttribute('d')
+                });
+            });
+            return data
+        }
+        function morph(to, delay = 0) {
+            var target = document.getElementById('bgsvg');
+            Array.prototype.forEach.call(target.querySelectorAll('path'), function(path, i) {
+                if (path && i < to.length) {
+                    TweenLite.to(path, _svgDuration, {attr: {fill: to[i].fill}, morphSVG: to[i].d, delay: delay});
+                }
+            });
+        }
+
+        svgPaths["none"] = getPathData(document.getElementById('bgsvg'));
+        Array.prototype.forEach.call(document.querySelectorAll('svg[data-vid-svg]'), function(svg) {
+            svgPaths[svg.id.split('svg-')[1]] = getPathData(svg);
+        });
+
+
+        function setActiveVid(id) {
+            player.stop();
+            _playerContainer.classList.remove('is-loaded');
+            if (id !== "none") {
+                _lastX = window.pageXOffset
+                _lastY = window.pageYOffset
+            }
+            document.getElementById('bgsvg').setAttribute('preserveAspectRatio', id == "none" ? 'xMinYMin slice': 'xMidYMid slice');
+            Array.prototype.forEach.call(document.querySelectorAll('.is-active'), function (el) {
+                el.classList.remove('is-active');
+            });
+
+            
+
+            if (id == "none") {
+                document.title = 'Home | {{ site.title }}';
+                document.querySelector('[property="og:url"]').setAttribute('content', "{{ site.url }}")
+                document.querySelector('[property="og:title"]').setAttribute('content', "{{ site.title }}")
+                document.querySelector('[property="og:image"]').setAttribute('content', "{{ site.url }}/media/ad-love-and-pop-og.jpg")
+                document.querySelector('[property="og:description"]').setAttribute('content', "{{ site.description}}")
+                document.querySelector('[name="twitter:title"]').setAttribute('content', "{{ site.title }}")
+                document.querySelector('[name="twitter:description"]').setAttribute('content', "{{ site.description }}")
+                document.querySelector('[name="twitter:image"]').setAttribute('content', "{{ site.url }}/media/ad-love-and-pop-og.jpg")
+                document.querySelector('[name="twitter:url"]').setAttribute('content', "{{ site.url }}")
+                document.body.classList.remove('has-vid');
+                document.querySelector("img[data-vid-img]").classList.remove('is-loaded');
+                hls.detachMedia(_player);
+                hls.destroy();
+                _player.setAttribute('src', '');
+                if (Hls.isSupported()) {
+                    hls = new Hls();
+                }
+                morph(svgPaths[id]);
+                window.scrollTo(_lastX, _lastY);
+                return;
+            }
+            var vidNav = document.querySelector('[data-vid="' + id + '"]');
+            var vidDetails = document.querySelector('[data-vid-details="' + id + '"]');
+            var metaTitle = vidNav.getAttribute('data-meta-title');
+            var metaDescription = vidNav.getAttribute('data-meta-description');
+            var img = vidNav.getAttribute('data-img') || 'data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==';
+            var srt = vidNav.getAttribute('data-srt');
+            var ogImg = img.replace('.jpg', '-og.jpg');
+            document.title = metaTitle + ' | {{ site.title }}';
+            document.querySelector('[property="og:url"]').setAttribute('content', window.location.href)
+            document.querySelector('[property="og:title"]').setAttribute('content', document.title)
+            document.querySelector('[property="og:image"]').setAttribute('content', window.location.origin + ogImg)
+            document.querySelector('[property="og:description"]').setAttribute('content', metaDescription)
+            document.querySelector('[name="twitter:title"]').setAttribute('content', document.title)
+            document.querySelector('[name="twitter:description"]').setAttribute('content', metaDescription)
+            document.querySelector('[name="twitter:image"]').setAttribute('content', window.location.origin + ogImg)
+            document.querySelector('[name="twitter:url"]').setAttribute('content', window.location.href)
+            vidNav.classList.add('is-active');
+            vidDetails.classList.add('is-active');
+            document.body.classList.add('has-vid');
+            morph(svgPaths[id])
+            document.querySelector("img[data-vid-img]").src = img;
+            var playbackId = vidNav.getAttribute('data-muxid');
+            if (playbackId) {
+                _player.setAttribute('poster', 'https://image.mux.com/' + playbackId + '/thumbnail.jpg?time=21');
+                if (Hls.isSupported()) {
+                    player.on('canplay',function() {
+                        _playerContainer.classList.add('is-loaded');
+                    })
+                    if (srt) {
+                        _player.innerHTML = '<track id="vidCaptions" kind="captions" label="English captions" src="/media/' + srt + '" srclang="en">';
+                    } else {
+                        _player.innerHTML = '';
+                    }
+                    hls.loadSource("https://stream.mux.com/" + playbackId + ".m3u8");
+                    hls.attachMedia(_player);
+                    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+                    });
+                }
+                
+            }
+        }
+        var root = window.location.origin;
+        var useHash = false;
+        var hash = '#!';
+        var router = new Navigo(root, useHash, hash);
+        router
+        .on(/vid\/(\d+)-(\w+)\/?/, function (id) {
+            console.log(id);
+            setActiveVid(id);
+        })
+        .on({
+            '*': function () {
+                console.log('none');
+                setActiveVid("none");
+            }
+        })
+        .resolve();
+    })();
+</script>
+<script inline src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script>
+<script inline src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/plugins/ColorPropsPlugin.min.js"></script>
 {% endblock %}

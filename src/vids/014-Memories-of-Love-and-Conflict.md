@@ -14,11 +14,15 @@ downloads:
     - {url: AbsoluteDestiny-Memories_of_Love_and_Conflict-480p.m4v, width: 848, height: 480, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Memories_of_Love_and_Conflict-480p.m4v
+svg: AbsoluteDestiny-Memories_of_Love_and_Conflict.svg
+bgimg: AbsoluteDestiny-Memories_of_Love_and_Conflict.jpg
 hd_stream: null
 tags:
     - anime
     - spoilers
 vid_id: '014'
+mux: 83bLdURf3rRG7c5RvUJB02qy1mtAMGcKS
+yt_id: GERenXBvDLc
 
 ---
 Ill-fated teen romance and dreamland melodrama abound.
