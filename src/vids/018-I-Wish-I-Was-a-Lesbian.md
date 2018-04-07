@@ -27,6 +27,7 @@ tags:
 vid_id: '018'
 mux: P02V7bwdmIPdJhJJ2quTiskR7oyiN5NG01
 yt_id: WJzRFog6sPE
+priority: 0.8
 
 ---
 I had this video planned for <em>ages</em> and when I finally got around to making it I missed the Otakon deadline. Oh well, it went to AWA and was a big success!

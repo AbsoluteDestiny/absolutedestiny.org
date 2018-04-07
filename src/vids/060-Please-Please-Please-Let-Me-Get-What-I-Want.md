@@ -25,7 +25,7 @@ tags:
 vid_id: '060'
 mux: 01wSULRuA3tfeFzijeEM02ihqP9w1iFjnU
 yt_id: 3U3Rh9mxcoU
-
+priority: 1.0
 
 ---
 collaboration with Joyo

@@ -1,5 +1,6 @@
 ---
 layout: home.njk
+priority: 1.0
 ---
 
 # About Me

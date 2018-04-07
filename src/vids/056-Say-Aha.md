@@ -26,6 +26,7 @@ tags:
 vid_id: '056'
 mux: S5006PQjymXL9LRRn64R4VUGzGfsn1BDR
 ty_id: ijE09_HcLVw
+priority: 0.8
 
 ---
 Louder than they allow, allow

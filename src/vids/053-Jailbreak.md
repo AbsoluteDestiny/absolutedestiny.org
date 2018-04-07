@@ -28,6 +28,7 @@ tags:
     - liveaction
 vid_id: '053'
 yt_id: -UJb1zf8jWc
+priority: 0.8
 
 ---
 The criminal hi-jinx of the rebel scum. For colls, Festivids 2011/12

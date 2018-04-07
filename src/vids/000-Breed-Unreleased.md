@@ -22,6 +22,7 @@ tags:
     - youhadtobethere
     - capturecard
 vid_id: '000'
+private: true
 
 ---
 This is technically my first vid. Made in 1993 using two VCRs, it no longer exits but I'm listing it here for nostalgia sake.

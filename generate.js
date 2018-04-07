@@ -244,7 +244,8 @@ Metalsmith(process.cwd())
   .use(
     sitemap({
       hostname: sitedata.url,
-      omitIndex: true
+      omitIndex: true,
+      pattern: ['vid/**/*.html', '*.html']
     })
   )
   // .use(

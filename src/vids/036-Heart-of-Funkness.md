@@ -23,6 +23,7 @@ tags:
     - spoilers
 vid_id: '036'
 mux: UefDOdQ00dQ5xLTc0101Mn8w6yVtYrwSBEl
+priority: 0.8
 
 ---
 Tribal homo-eroticism, war and paranoia. Kurtz throws a hell of a party.

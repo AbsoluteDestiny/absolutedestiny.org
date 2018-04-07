@@ -24,6 +24,7 @@ tags:
 vid_id: '006'
 mux: sICiO5ikZ6L6TIRfD5C7C01RgVHzmkN8k
 yt_id: 4tHAtz0g4mE
+priority: 1.0
 
 ---
 This is the video that got me known among anime music video creators and it's something of an anthem video for me. FLCL is in my mind one of the finest Psychotronic works and this was a chance for me to play with its themes and have a lot of fun.
