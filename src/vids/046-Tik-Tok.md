@@ -11,8 +11,8 @@ song: 'Tik Tok'
 artist: Ke$ha
 song_info_url: 'http://en.wikipedia.org/wiki/Tik_Tok_%28song%29'
 downloads:
-    - {url: AbsoluteDestiny-Tik_Tok-480p.m4v, width: 720, height: 352, mimetype: video/mp4}
-    - {url: AbsoluteDestiny-Tik_Tok-720p.m4v, width: 1280, height: 692, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Tik_Tok-480p.m4v, title: '480p mp4', width: 720, height: 352, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Tik_Tok-720p.m4v, title: '720p mp4', width: 1280, height: 692, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Tik_Tok-480p.m4v
 svg: AbsoluteDestiny-Tik_Tok.svg

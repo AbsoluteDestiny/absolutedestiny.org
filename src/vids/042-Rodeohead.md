@@ -12,13 +12,14 @@ song: Rodeohead
 artist: 'Hard ''n'' Phirm'
 song_info_url: 'http://en.wikipedia.org/wiki/Horses_and_Grasses'
 downloads:
-    - {url: AbsoluteDestiny-Rodeohead-480p_1.m4v, width: 848, height: 416, mimetype: video/mp4}
-    - {url: AbsoluteDestiny-Rodeohead-1080p.m4v, width: 848, height: 416, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Rodeohead-480p.m4v, title: '480p mp4', width: 848, height: 416, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Rodeohead-720p.m4v, title: '720p mp4', width: 848, height: 416, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Rodeohead-1080p.m4v, title: '1080p mp4', width: 848, height: 416, mimetype: video/mp4}
 srt: null
-sd_stream: AbsoluteDestiny-Rodeohead-480p_1.m4v
+sd_stream: AbsoluteDestiny-Rodeohead-480p.m4v
 svg: AbsoluteDestiny-Rodeohead.svg
 bgimg: AbsoluteDestiny-Rodeohead.jpg
-hd_stream: null
+hd_stream: AbsoluteDestiny-Rodeohead-1080p.m4v
 tags:
     - myfaves
     - liveaction

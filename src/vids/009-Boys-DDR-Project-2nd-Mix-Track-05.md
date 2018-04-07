@@ -11,7 +11,7 @@ song: Boys
 artist: Smile.dk
 song_info_url: 'https://secure.wikimedia.org/wikipedia/en/wiki/Dance_Dance_Revolution_2ndMix'
 downloads:
-    - {url: AbsoluteDestiny-DDR_Project_2nd_Mix_Track_05_Boys-480p.m4v, width: 640, height: 352, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-DDR_Project_2nd_Mix_Track_05_Boys-480p.m4v, title: '480p mp4', width: 640, height: 352, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-DDR_Project_2nd_Mix_Track_05_Boys-480p.m4v
 svg: AbsoluteDestiny-DDR_Project_2nd_Mix_Track_05_Boys.svg

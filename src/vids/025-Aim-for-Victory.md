@@ -11,7 +11,7 @@ song: War
 artist: 'Vince DiCola'
 song_info_url: 'http://en.wikipedia.org/wiki/Rocky_IV_(soundtrack)'
 downloads:
-    - {url: AbsoluteDestiny-Aim_for_Victory-480p.m4v, width: 640, height: 480, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Aim_for_Victory-480p.m4v, title: '480p mp4', width: 640, height: 480, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Aim_for_Victory-480p.m4v
 svg: AbsoluteDestiny-Aim_for_Victory.svg

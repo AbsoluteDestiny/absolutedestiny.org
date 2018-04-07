@@ -12,8 +12,8 @@ song: 'Livin'' On A Prayer'
 artist: 'Bon Jovi'
 song_info_url: 'https://en.wikipedia.org/wiki/Livin%27_on_a_Prayer'
 downloads:
-    - {url: AbsoluteDestiny-Livin_On_A_Prayer-480p.m4v, width: 848, height: 464, mimetype: video/mp4}
-    - {url: AbsoluteDestiny-Livin_On_A_Prayer-720p.m4v, width: 1280, height: 688, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Livin_On_A_Prayer-480p.m4v, title: '480p mp4', width: 848, height: 464, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Livin_On_A_Prayer-720p.m4v, title: '720p mp4', width: 1280, height: 688, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Livin_On_A_Prayer-480p.m4v
 svg: AbsoluteDestiny-Livin_On_A_Prayer.svg

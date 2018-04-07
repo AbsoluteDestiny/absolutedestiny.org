@@ -11,7 +11,7 @@ song: 'After the End'
 artist: 'Neon Genesis Evangelion Cast'
 song_info_url: 'https://secure.wikimedia.org/wikipedia/en/wiki/Music_of_Neon_Genesis_Evangelion#Neon_Genesis_Evangelion_Addition'
 downloads:
-    - {url: AbsoluteDestiny-Eva_Audio_Drama-480p.m4v, width: 640, height: 480, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Eva_Audio_Drama-480p.m4v, title: '480p mp4', width: 640, height: 480, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Eva_Audio_Drama-480p.m4v
 svg: AbsoluteDestiny-Eva_Audio_Drama.svg

@@ -16,7 +16,7 @@ song: 'Ninzaburo (Furuhata''s Theme)'
 artist: 'C.J. Crew feat Sledge'
 song_info_url: 'http://en.wikipedia.org/wiki/Dance_Dance_Revolution_4thMix'
 downloads:
-    - {url: AbsoluteDestiny-Virtua_Anime_DDR_Project_4th_Mix_Track_50-480p.m4v, width: 640, height: 480, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Virtua_Anime_DDR_Project_4th_Mix_Track_50-480p.m4v, title: '480p mp4', width: 640, height: 480, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Virtua_Anime_DDR_Project_4th_Mix_Track_50-480p.m4v
 svg: AbsoluteDestiny-Virtua_Anime_DDR_Project_4th_Mix_Track_50.svg

@@ -11,8 +11,8 @@ song: 'Raise Your Weapon (Madeon Remix)'
 artist: deadmau5
 song_info_url: 'http://en.wikipedia.org/wiki/Raise_Your_Weapon'
 downloads:
-    - {url: AbsoluteDestiny-Raise_Your_Weapon-480p.m4v, width: 848, height: 480, mimetype: video/mp4}
-    - {url: AbsoluteDestiny-Raise_Your_Weapon-720p.m4v, width: 1280, height: 720, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Raise_Your_Weapon-480p.m4v, title: '480p mp4', width: 848, height: 480, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Raise_Your_Weapon-720p.m4v, title: '720p mp4', width: 1280, height: 720, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Raise_Your_Weapon-480p.m4v
 svg: AbsoluteDestiny-Raise_Your_Weapon.svg

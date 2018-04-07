@@ -11,7 +11,7 @@ song: Burn
 artist: 'The Cure'
 song_info_url: 'https://secure.wikimedia.org/wikipedia/en/wiki/The_Crow_(album)'
 downloads:
-    - {url: AbsoluteDestiny-Burn-480p.m4v, width: 800, height: 300, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Burn-480p.m4v, title: '480p mp4', width: 800, height: 300, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Burn-480p.m4v
 svg: AbsoluteDestiny-Burn.svg

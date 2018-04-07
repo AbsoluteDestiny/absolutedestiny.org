@@ -11,7 +11,7 @@ song: '9th and Hennepin'
 artist: 'Tom Waits'
 song_info_url: 'https://secure.wikimedia.org/wikipedia/en/wiki/Rain_Dogs'
 downloads:
-    - {url: AbsoluteDestiny-City_Of_The_Rain_Dogs-480p.m4v, width: 640, height: 352, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-City_Of_The_Rain_Dogs-480p.m4v, title: '480p mp4', width: 640, height: 352, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-City_Of_The_Rain_Dogs-480p.m4v
 svg: AbsoluteDestiny-City_Of_The_Rain_Dogs.svg

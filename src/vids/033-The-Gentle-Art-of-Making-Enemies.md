@@ -11,7 +11,7 @@ song: 'The Gentle Art of Making Enemies'
 artist: 'Faith No More'
 song_info_url: 'http://en.wikipedia.org/wiki/King_for_a_Day..._Fool_for_a_Lifetime'
 downloads:
-    - {url: AbsoluteDestiny-The_Gentle_Art_of_Making_Enemies-480p.m4v, width: 848, height: 384, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-The_Gentle_Art_of_Making_Enemies-480p.m4v, title: '480p mp4', width: 848, height: 384, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-The_Gentle_Art_of_Making_Enemies-480p.m4v
 svg: AbsoluteDestiny-The_Gentle_Art_of_Making_Enemies.svg

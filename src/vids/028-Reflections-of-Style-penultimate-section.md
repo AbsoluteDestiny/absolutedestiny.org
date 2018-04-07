@@ -11,7 +11,7 @@ song: Beg4Life
 artist: 'Dr. Mario'
 song_info_url: 'http://www.discogs.com/Dr-Mario-The-Boy-Next-Door-EP/release/631706'
 downloads:
-    - {url: AbsoluteDestiny-Reflections_of_Style_penultimate_section-480p.m4v, width: 640, height: 480, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Reflections_of_Style_penultimate_section-480p.m4v, title: '480p mp4', width: 640, height: 480, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Reflections_of_Style_penultimate_section-480p.m4v
 svg: AbsoluteDestiny-Reflections_of_Style_penultimate_section.svg

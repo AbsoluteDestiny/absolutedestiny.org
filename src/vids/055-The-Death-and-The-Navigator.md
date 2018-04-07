@@ -11,7 +11,7 @@ song: 'Atomic Bird'
 artist: 'Yoko Kanno'
 song_info_url: 'http://en.wikipedia.org/wiki/Song_to_fly'
 downloads:
-    - {url: AbsoluteDestiny-The_Death_and_The_Navigator-480p.m4v, width: 848, height: 480, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-The_Death_and_The_Navigator-480p.m4v, title: '480p mp4', width: 848, height: 480, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-The_Death_and_The_Navigator-480p.m4v
 svg: AbsoluteDestiny-The_Death_and_The_Navigator.svg

@@ -11,7 +11,7 @@ song: 'Please, Please, Please, Let Me Get What I Want'
 artist: 'The Smiths'
 song_info_url: 'http://en.wikipedia.org/wiki/Please,_Please,_Please,_Let_Me_Get_What_I_Want'
 downloads:
-    - {url: JoyoAbsoluteDestiny-Please_Please_Please_Let_Me_Get_What_I_Want-480p.m4v, width: 640, height: 480, mimetype: video/mp4}
+    - {url: JoyoAbsoluteDestiny-Please_Please_Please_Let_Me_Get_What_I_Want-480p.m4v, title: '480p mp4', width: 640, height: 480, mimetype: video/mp4}
 srt: null
 sd_stream: JoyoAbsoluteDestiny-Please_Please_Please_Let_Me_Get_What_I_Want-480p.m4v
 svg: JoyoAbsoluteDestiny-Please_Please_Please_Let_Me_Get_What_I_Want.svg

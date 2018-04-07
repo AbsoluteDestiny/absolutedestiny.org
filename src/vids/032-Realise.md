@@ -11,7 +11,7 @@ song: 'Do You Realize??'
 artist: 'The Flaming Lips'
 song_info_url: 'http://en.wikipedia.org/wiki/Do_You_Realize%3F%3F'
 downloads:
-    - {url: AbsoluteDestiny-Realise-480p.m4v, width: 848, height: 480, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Realise-480p.m4v, title: '480p mp4', width: 848, height: 480, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Realise-480p.m4v
 svg: AbsoluteDestiny-Realise.svg

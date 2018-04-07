@@ -11,8 +11,8 @@ song: 'Purachina (Platinum)'
 artist: 'Yoko Kanno & Maaya Sakamoto'
 song_info_url: 'http://ccs.wikia.com/wiki/List_of_Cardcaptor_Sakura_albums'
 downloads:
-    - {url: AbsoluteDestiny-Magical_Dreamer-480p.m4v, width: 848, height: 480, mimetype: video/mp4}
-    - {url: AbsoluteDestiny-Magical_Dreamer-480p-nosub.m4v, width: 848, height: 480, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Magical_Dreamer-480p-nosub.m4v, title: '480p mp4', width: 848, height: 480, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Magical_Dreamer-480p.m4v, title: '480p mp4 (subtitled)', width: 848, height: 480, mimetype: video/mp4}
 srt: AbsoluteDestiny-MagicalDreamer.vtt
 sd_stream: AbsoluteDestiny-Magical_Dreamer-480p-nosub.m4v
 svg: AbsoluteDestiny-Magical_Dreamer.svg

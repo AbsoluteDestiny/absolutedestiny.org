@@ -11,8 +11,8 @@ song: 'You Make Me Feel So Young'
 artist: 'Frank Sinatra'
 song_info_url: 'https://en.wikipedia.org/wiki/Songs_for_Swingin%27_Lovers!'
 downloads:
-    - {url: AbsoluteDestiny-You_Make_Me_Feel_So_Young-480p.m4v, width: 816, height: 480, mimetype: video/mp4}
-    - {url: AbsoluteDestiny-You_Make_Me_Feel_So_Young-720p.m4v, width: 1216, height: 720, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-You_Make_Me_Feel_So_Young-480p.m4v, title: '480p mp4', width: 816, height: 480, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-You_Make_Me_Feel_So_Young-720p.m4v, title: '720p mp4', width: 1216, height: 720, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-You_Make_Me_Feel_So_Young-480p.m4v
 svg: AbsoluteDestiny-You_Make_Me_Feel_So_Young.svg

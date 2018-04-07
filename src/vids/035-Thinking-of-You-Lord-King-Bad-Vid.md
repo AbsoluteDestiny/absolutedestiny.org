@@ -13,7 +13,7 @@ song: 'Thinking of You'
 artist: Hanson
 song_info_url: 'http://en.wikipedia.org/wiki/Middle_of_Nowhere_(Hanson_album)'
 downloads:
-    - {url: AbsoluteDestiny-Thinking_of_You-480p.m4v, width: 640, height: 246, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Thinking_of_You-480p.m4v, title: '480p mp4', width: 640, height: 246, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Thinking_of_You-480p.m4v
 svg: AbsoluteDestiny-Thinking_of_You.svg

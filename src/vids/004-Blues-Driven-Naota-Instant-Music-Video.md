@@ -11,7 +11,7 @@ song: Doll
 artist: 'Foo Fighters'
 song_info_url: 'https://secure.wikimedia.org/wikipedia/en/wiki/The_Colour_and_the_Shape'
 downloads:
-    - {url: AbsoluteDestiny-Blues_Driven_Naota_Instant_Music_Video-480p.m4v, width: 640, height: 480, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Blues_Driven_Naota_Instant_Music_Video-480p.m4v, title: '480p mp4', width: 640, height: 480, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Blues_Driven_Naota_Instant_Music_Video-480p.m4v
 svg: AbsoluteDestiny-Blues_Driven_Naota_Instant_Music_Video.svg

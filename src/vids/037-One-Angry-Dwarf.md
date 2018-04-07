@@ -11,7 +11,7 @@ song: 'One Angry Dwarf and 200 Solemn Faces'
 artist: 'Ben Folds Five'
 song_info_url: 'http://en.wikipedia.org/wiki/Whatever_and_Ever_Amen'
 downloads:
-    - {url: AbsoluteDestiny-One_Angry_Dwarf-480p.m4v, width: 848, height: 336, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-One_Angry_Dwarf-480p.m4v, title: '480p mp4', width: 848, height: 336, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-One_Angry_Dwarf-480p.m4v
 svg: AbsoluteDestiny-One_Angry_Dwarf.svg

@@ -36,7 +36,7 @@
                     {% if vid.downloads | length %}
                         <div class="c-details__downloads"><span class="u-font-header">Downloads:</span>
                         {% for dl in vid.downloads %}
-                            <a class="c-details__download" href="/video/{{dl.url}}">{{dl.url | replace('.m4v', '') | replace(r/[^14780p]+/, '')}} mp4</a>
+                            <a class="c-details__download" href="/video/{{dl.url}}">{{dl.title}}</a>
                         {% endfor %}</div>
                     {% endif %}
                     <div class="c-details__footage"><span class="u-font-header">Footage:</span> {{vid.footage}}</div>

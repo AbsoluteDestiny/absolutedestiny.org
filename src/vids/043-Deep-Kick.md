@@ -11,7 +11,7 @@ song: 'Deep Kick'
 artist: 'Red Hot Chili Peppers'
 song_info_url: 'http://en.wikipedia.org/wiki/One_Hot_Minute'
 downloads:
-    - {url: AbsoluteDestiny-Deep_Kick-480p.m4v, width: 848, height: 480, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Deep_Kick-480p.m4v, title: '480p mp4', width: 848, height: 480, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Deep_Kick-480p.m4v
 svg: AbsoluteDestiny-Deep_Kick.svg

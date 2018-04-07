@@ -11,7 +11,7 @@ song: 'Age Like Wine'
 artist: 'Todd Snider'
 song_info_url: 'http://en.wikipedia.org/wiki/East_Nashville_Skyline'
 downloads:
-    - {url: AbsoluteDestiny-Age_Like_Wine-480p.m4v, width: 1024, height: 720, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Age_Like_Wine-480p.m4v, title: '480p mp4', width: 1024, height: 720, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Age_Like_Wine-480p.m4v
 svg: AbsoluteDestiny-Age_Like_Wine.svg

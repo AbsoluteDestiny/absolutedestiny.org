@@ -11,7 +11,7 @@ song: 'Shimmy Shake'
 artist: '720 Boyz'
 song_info_url: 'http://en.wikipedia.org/wiki/740_Boyz'
 downloads:
-    - {url: AbsoluteDestiny-AniMixPart_2_Track_50-480p.m4v, width: 640, height: 480, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-AniMixPart_2_Track_50-480p.m4v, title: '480p mp4', width: 640, height: 480, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-AniMixPart_2_Track_50-480p.m4v
 svg: AbsoluteDestiny-AniMixPart_2_Track_50.svg

@@ -11,7 +11,7 @@ song: 'Edward Scissorhands Medley'
 artist: 'Danny Elfman'
 song_info_url: 'http://en.wikipedia.org/wiki/Danny_Elfman'
 downloads:
-    - {url: AbsoluteDestiny-A_Gothic_Fairy_Tale-480p.m4v, width: 640, height: 352, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-A_Gothic_Fairy_Tale-480p.m4v, title: '480p mp4', width: 640, height: 352, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-A_Gothic_Fairy_Tale-480p.m4v
 svg: AbsoluteDestiny-A_Gothic_Fairy_Tale.svg

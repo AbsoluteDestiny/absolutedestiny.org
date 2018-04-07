@@ -11,7 +11,7 @@ song: 'Monkey Wrench'
 artist: 'Foo Fighters'
 song_info_url: 'https://secure.wikimedia.org/wikipedia/en/wiki/Monkey_Wrench_%28song%29'
 downloads:
-    - {url: AbsoluteDestiny-Poor_Miyazawa_or_Monkey_Wrench-480p.m4v, width: 640, height: 480, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Poor_Miyazawa_or_Monkey_Wrench-480p.m4v, title: '480p mp4', width: 640, height: 480, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Poor_Miyazawa_or_Monkey_Wrench-480p.m4v
 svg: AbsoluteDestiny-Poor_Miyazawa_or_Monkey_Wrench.svg

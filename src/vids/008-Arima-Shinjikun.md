@@ -12,7 +12,7 @@ song: 'To Cut A Long Story Short'
 artist: 'Spandau Ballet'
 song_info_url: 'https://secure.wikimedia.org/wikipedia/en/wiki/Journeys_to_Glory'
 downloads:
-    - {url: AbsoluteDestiny-Arima_Shinjikun-480p.m4v, width: 640, height: 480, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Arima_Shinjikun-480p.m4v, title: '480p mp4', width: 640, height: 480, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Arima_Shinjikun-480p.m4v
 svg: AbsoluteDestiny-Arima_Shinjikun.svg
