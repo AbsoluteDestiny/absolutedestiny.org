@@ -732,13 +732,14 @@ a:not([class]) {
   display: none;
   font-family: @font-family-headers;
   font-weight: 100;
+  font-size: 1.2rem;
+  line-height: 1;
   background: @darkest-for-white;
   padding: 10px 20px;
   color: #fff;
   text-decoration: none;
   
   &__title {
-    font-size: 1rem;
     text-align: right;
     margin-left: auto;
   }
@@ -819,6 +820,17 @@ a:not([class]) {
   .plyr--playing video {
     opacity: 1;
   }
+}
+
+.c-footer {
+    padding: 10px;
+    background-color: transparent;
+    color: #000;
+
+    .has-vid & {
+        background-color: @darkest-for-white;
+        color: #fff;
+    }
 }
 
 @keyframes plyr-progress{
