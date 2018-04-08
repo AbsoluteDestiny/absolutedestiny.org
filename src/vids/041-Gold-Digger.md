@@ -12,6 +12,8 @@ artist: 'A Plus D'
 song_info_url: 'http://www.bootiemashup.com/aplusd/mashups.php'
 downloads:
     - {url: AbsoluteDestiny-Gold_Digger-480p.m4v, title: '480p mp4', width: 640, height: 480, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Gold_Digger-720p.m4v, title: '720p mp4', width: 640, height: 480, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Gold_Digger-1080p.m4v, title: '1080p mp4', width: 640, height: 480, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Gold_Digger-480p.m4v
 svg: AbsoluteDestiny-Gold_Digger.svg
@@ -21,7 +23,7 @@ tags:
     - liveaction
     - spoilers
 vid_id: '041'
-mux: fpuQREiKurncW8rje1PNoS54Cp9YFS9l
+mux: L7RoO0011MnIKuqU12fRG00hh01kpD7Pi92
 yt_id: lnRVIBJmshY
 
 ---
