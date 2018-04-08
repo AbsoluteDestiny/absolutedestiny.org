@@ -128,6 +128,7 @@
                 document.querySelector("img[data-vid-img]").classList.remove('is-loaded');
                 hls.detachMedia(_player);
                 hls.destroy();
+                player.fullscreen.exit();
                 _player.setAttribute('src', '');
                 if (Hls.isSupported()) {
                     hls = new Hls(hlsConfig);
