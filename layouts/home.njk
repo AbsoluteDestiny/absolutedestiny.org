@@ -13,21 +13,21 @@
             {% for vid in vids %}
                 {% if vid.downloads | length %}
                     {% set active = " is-active" if  (vid_id == vid.vid_id)  else "" %}
-                    <a data-navigo href="{{vid.paths.href}}" class="c-vid{{active}}" data-vid="{{vid.vid_id}}" data-svg="/media/{{vid.svg}}" data-img="/media/{{vid.bgimg}}" data-muxid="{{vid.mux}}" data-srt="{{vid.srt}}" data-meta-title="{{vid.title}}" data-meta-description="A fanwork by AbsoluteDestiny to '{{vid.song}}' by {{vid.artist}} using {{vid.footage | join(', ')}}">
-                        <img inline data-vid-svg id="svg-{{vid.vid_id}}" class="c-vid__image" src="src/media/{{vid.svg}}" alt="{{vid.title}}">
-                        <div class="c-vid__details">
-                            <div class="c-vid__title">{{vid.title}}</div>
-                            <div class="c-vid__footage">Footage: {% if (vid.footage | length) > 3 %}{{vid.footage | slice(3) | first | join(', ')}}…{% else %}{{vid.footage | join(', ')}}{% endif %}</div>
-                        </div>
-                    </a>
+                    <div class="c-vid-grid__item">
+                        <a data-navigo href="{{vid.paths.href}}" class="c-vid{{active}}" data-vid="{{vid.vid_id}}" data-svg="/media/{{vid.svg}}" data-img="/media/{{vid.bgimg}}" data-muxid="{{vid.mux}}" data-srt="{{vid.srt}}" data-meta-title="{{vid.title}}" data-meta-description="A fanwork by AbsoluteDestiny to '{{vid.song}}' by {{vid.artist}} using {{vid.footage | join(', ')}}">
+                            <img inline data-vid-svg id="svg-{{vid.vid_id}}" class="c-vid__image" src="src/media/{{vid.svg}}" alt="{{vid.title}}">
+                            <div class="c-vid__details">
+                                <div class="c-vid__title">{{vid.title}}</div>
+                                <div class="c-vid__footage">Footage: {% if (vid.footage | length) > 3 %}{{vid.footage | slice(3) | first | join(', ')}}…{% else %}{{vid.footage | join(', ')}}{% endif %}</div>
+                            </div>
+                        </a>
+                    </div>
                 {% endif %}
             {% endfor %}
         </nav>
         <div class="l-details">
             <a href="/" class="c-backnav" data-navigo><span class="c-backnav__link">⬅ back to vids</span><span class="c-backnav__title">{{site.title}}</span></a>
             {% for vid in vids %}
-                {% set active = " is-active" if vid_id == vid.vid_id  else "" %}
-                {% set regExp = r/\d{3,4}p/g %}
                 <section class="c-details" data-vid-details="{{vid.vid_id}}">
                     <header class="c-details__header">
                         <h1 class="c-details__heading">{{vid.title}}</h1>
@@ -189,12 +189,10 @@
         var router = new Navigo(root, useHash, hash);
         router
         .on(/vid\/(\d+)-(\w+)\/?/, function (id) {
-            console.log(id);
             setActiveVid(id);
         })
         .on({
             '*': function () {
-                console.log('none');
                 setActiveVid("none");
             }
         })
