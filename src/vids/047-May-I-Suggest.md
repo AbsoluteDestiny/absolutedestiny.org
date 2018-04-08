@@ -24,6 +24,7 @@ tags:
 vid_id: '047'
 mux: IXeFKUaoMMV8rwx9TT4GAlacmIkGLwdp
 yt_id: 5VuthSQNFvk
+priority: 0.8
 
 ---
 The best part of your life.
