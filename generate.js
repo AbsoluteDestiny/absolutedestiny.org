@@ -175,7 +175,7 @@ Metalsmith(process.cwd())
   )
   .use(
     fileMetadata([
-      { pattern: "**", metadata: { layout: "home.njk" } },
+      { pattern: "*.md", metadata: { layout: "home.njk" } },
       { pattern: "vids/**", metadata: { layout: "vid.njk" } },
       { pattern: "vidplayer/**", metadata: { layout: "vidplayer.njk" } }
     ])
@@ -245,15 +245,18 @@ Metalsmith(process.cwd())
     sitemap({
       hostname: sitedata.url,
       omitIndex: true,
-      pattern: ['vid/**/*.html', '*.html']
+      pattern: ["vid/**/*.html", "*.html"]
     })
   )
-  // .use(
-  //   browserSync({
-  //     server: "./build",
-  //     files: ["src/**/*.*", "layouts/*.*"]
-  //   })
-  // )
+  .use(
+    copy({
+      pattern: "**/googlea7adbfb6a9a0f483",
+      move: true,
+      transform(file) {
+        return `${path.basename(file)}.html`;
+      }
+    })
+  )
   .build(err => {
     if (err) {
       throw err;
