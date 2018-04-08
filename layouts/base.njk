@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>{{ title or "Home" }} | {{ site.title }}</title>
+    <title>{{ title or "Home" | safe  }} | {{ site.title | safe }}</title>
     <meta name="description" content="{{ site.description }}">
     <meta name="robots" content="index,follow"><!-- All Search Engines -->
     <meta name="googlebot" content="index,follow"><!-- Google Specific -->
