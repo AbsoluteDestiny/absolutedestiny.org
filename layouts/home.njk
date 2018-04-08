@@ -45,9 +45,12 @@
                 </section>
             {% endfor %}
             <section class="c-video">
-                <video preload="auto" id="videoPlayer" controls crossorigin>
+                <video preload="false" id="videoPlayer" controls crossorigin>
                 </video>
             </section>
+            <footer class="u-relative c-footer c-footer--vid">
+                Copyright © <script>document.currentScript.insertAdjacentHTML('beforebegin', new Date().getFullYear());</script>&nbsp;<a href="mailto:ian@absolutedestiny.org">AbsoluteDestiny</a>
+            </footer>
         </div>
         
     </div>
@@ -64,9 +67,13 @@
         var _playerContainer = document.querySelector('.c-video');
         var _player = document.getElementById("videoPlayer");
         var hls;
+        var hlsConfig = {
+            autoStartLoad: false,
+            maxBufferSize: 20 * 1024 * 1024
+        }
         player = new Plyr(_player);
         if (Hls.isSupported()) {
-            hls = new Hls();
+            hls = new Hls(hlsConfig);
         }
         function getPathData(svg) {
             var data = []
@@ -108,7 +115,7 @@
             
 
             if (id == "none") {
-                document.title = 'Home | {{ site.title }}';
+                document.title = "Home | {{ site.title | safe }}";
                 document.querySelector('[property="og:url"]').setAttribute('content', "{{ site.url }}")
                 document.querySelector('[property="og:title"]').setAttribute('content', "{{ site.title }}")
                 document.querySelector('[property="og:image"]').setAttribute('content', "{{ site.url }}/media/ad-love-and-pop-og.jpg")
@@ -123,7 +130,7 @@
                 hls.destroy();
                 _player.setAttribute('src', '');
                 if (Hls.isSupported()) {
-                    hls = new Hls();
+                    hls = new Hls(hlsConfig);
                 }
                 morph(svgPaths[id]);
                 window.scrollTo(_lastX, _lastY);
@@ -151,11 +158,15 @@
             morph(svgPaths[id])
             document.querySelector("img[data-vid-img]").src = img;
             var playbackId = vidNav.getAttribute('data-muxid');
+            var autoStopped = true;
             if (playbackId) {
                 _player.setAttribute('poster', 'https://image.mux.com/' + playbackId + '/thumbnail.jpg?time=21');
                 if (Hls.isSupported()) {
-                    player.on('canplay',function() {
-                        _playerContainer.classList.add('is-loaded');
+                    player.on('play', function(event) {
+                        if(autoStopped) {
+                            hls.startLoad(-1);
+                        }
+                        autoStopped = false;
                     })
                     if (srt) {
                         _player.innerHTML = '<track id="vidCaptions" kind="captions" label="English captions" src="/media/' + srt + '" srclang="en">';
@@ -165,6 +176,7 @@
                     hls.loadSource("https://stream.mux.com/" + playbackId + ".m3u8");
                     hls.attachMedia(_player);
                     hls.on(Hls.Events.MANIFEST_PARSED,function() {
+                        _playerContainer.classList.add('is-loaded');
                     });
                 }
                 
