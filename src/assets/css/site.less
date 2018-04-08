@@ -586,11 +586,23 @@ a:not([class]) {
   .has-vid & {
     display: none;
   }
+
+  &__item {
+    width: 100%;
+
+    @media screen and (min-width: 1200px) {
+        width: ~"calc(50% - 40px)";
+    }
+
+    @media  screen and (min-width: 1600px) {
+        width: ~"calc(33% - 40px)";
+    }
+  }
 }
 
 .c-vid {
+  display: block;
   font-family: @font-family-headers;
-  flex: 0 1 auto;
   position: relative;
   background-position: center;
   background-size: cover;
@@ -602,16 +614,6 @@ a:not([class]) {
   z-index: 2;
   box-shadow: 0 10px 20px 0 rgba(91, 107, 174, 0.25);
   transition: transform 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53);
-
-  @media (min-width: 1200px) {
-    width: ~"calc(50% - 40px)";
-    padding-bottom: ~"calc((50% - 40px) * 0.5625)";
-  }
-
-  @media (min-width: 1600px) {
-    width: ~"calc(33% - 40px)";
-    padding-bottom: ~"calc((33% - 40px) * 0.5625)";
-  }
 
   &__image {
     position: absolute;
