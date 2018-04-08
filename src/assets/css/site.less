@@ -633,12 +633,21 @@ a:not([class]) {
   }
 
   &__title {
-    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
     padding-bottom: 5px;
+    font-size: 22px;
   }
 
-  &__footage {
+  &__footage,
+  &__date {
     font-size: 16px;
+  }
+
+  &__date {
+    white-space: nowrap;
+    align-self: center;
   }
 
   &,

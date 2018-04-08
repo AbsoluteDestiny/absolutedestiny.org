@@ -31,6 +31,7 @@ const sitemap = require("metalsmith-sitemap");
 const subsetfonts = require("metalsmith-subsetfonts");
 const inlineSource = require("metalsmith-inline-source");
 const sharp = require("metalsmith-sharp");
+const nunjucksDate = require("nunjucks-date");
 // const sqip = require("sqip");
 // const tags = require("metalsmith-tags");
 // const watch = require("metalsmith-watch");
@@ -41,7 +42,9 @@ const sitedata = frontmatter(fs.readFileSync('./src/config/sitedata.md', "utf8")
 
 let nextId = 0;
 
-nunjucks.configure("./layouts", { watch: false, noCache: true });
+nunjucks
+  .configure("./layouts", { watch: false })
+  .addFilter("date", nunjucksDate);
 
 // function getFandoms() {
 //   return (files, metalsmith, done) => {
@@ -221,14 +224,18 @@ Metalsmith(process.cwd())
   .use(
     layouts({
       engine: "nunjucks",
-      pattern: "**/*.html**"
+      directory: './layouts',
+      pattern: "**/*.html"
     })
   )
-  .use(
-    inplace({
-      pattern: "**/*.html.**"
-    })
-  )
+  // .use(
+  //   inplace({
+  //     pattern: "**/*.njk",
+  //     engineOptions: {
+  //       path: `${__dirname}/layouts`
+  //     }
+  //   })
+  // )
   .use(subsetfonts())
   .use(
     inlineSource({
