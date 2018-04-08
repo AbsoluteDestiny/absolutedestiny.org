@@ -17,9 +17,10 @@
                         <a data-navigo href="{{vid.paths.href}}" class="c-vid{{active}}" data-vid="{{vid.vid_id}}" data-svg="/media/{{vid.svg}}" data-img="/media/{{vid.bgimg}}" data-muxid="{{vid.mux}}" data-srt="{{vid.srt}}" data-meta-title="{{vid.title}}" data-meta-description="A fanwork by AbsoluteDestiny to '{{vid.song}}' by {{vid.artist}} using {{vid.footage | join(', ')}}">
                             <img inline data-vid-svg id="svg-{{vid.vid_id}}" class="c-vid__image" src="src/media/{{vid.svg}}" alt="{{vid.title}}">
                             <div class="c-vid__details">
-                                <div class="c-vid__title">{{vid.title}}</div>
+                                <div class="c-vid__title">{{vid.title}} <span class="c-vid__date">{{vid.date | date("MMM, YYYY")}}</span></div>
                                 <div class="c-vid__footage">Footage: {% if (vid.footage | length) > 3 %}{{vid.footage | slice(3) | first | join(', ')}}…{% else %}{{vid.footage | join(', ')}}{% endif %}</div>
                             </div>
+                            
                         </a>
                     </div>
                 {% endif %}

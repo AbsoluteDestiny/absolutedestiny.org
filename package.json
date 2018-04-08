@@ -36,6 +36,7 @@
     "metalsmith-watch": "^1.0.3",
     "normalize.css": "^7.0.0",
     "nunjucks": "^3.0.1",
+    "nunjucks-date": "^1.2.0",
     "slug": "^0.9.1",
     "sqip": "^0.3.3",
     "yamljs": "^0.3.0"

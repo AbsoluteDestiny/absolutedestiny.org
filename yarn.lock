@@ -3186,6 +3186,10 @@ moment@2.x.x, moment@^2.5.1:
   version "2.18.1"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.18.1.tgz#c36193dd3ce1c2eed2adb7c802dbbc77a81b1c0f"
 
+moment@^2.8.4:
+  version "2.22.0"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.22.0.tgz#7921ade01017dd45186e7fee5f424f0b8663a730"
+
 ms@0.6.2:
   version "0.6.2"
   resolved "https://registry.yarnpkg.com/ms/-/ms-0.6.2.tgz#d89c2124c6fdc1353d65a8b77bf1aac4b193708c"
@@ -3324,6 +3328,12 @@ num2fraction@^1.1.0:
 number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
+
+nunjucks-date@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/nunjucks-date/-/nunjucks-date-1.2.0.tgz#187a2821984cfa7c2fba5ad3ed81d2249691a9ff"
+  dependencies:
+    moment "^2.8.4"
 
 nunjucks@^3.0.1:
   version "3.0.1"
