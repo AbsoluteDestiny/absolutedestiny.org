@@ -11,7 +11,8 @@ song: 'Jungle Boogie'
 artist: 'Kool and the Gang'
 song_info_url: 'http://en.wikipedia.org/wiki/Jungle_Boogie'
 downloads:
-    - {url: AbsoluteDestiny-Heart_of_Funkness-480p.m4v, title: '480p mp4', width: 848, height: 384, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Heart_of_Funkness-480p.m4v, title: '480p mp4 (original)', width: 848, height: 384, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Heart_of_Funkness-1080p.m4v, title: '1080p mp4 (remaster)', width: 848, height: 384, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Heart_of_Funkness-480p.m4v
 svg: AbsoluteDestiny-Heart_of_Funkness.svg
@@ -22,7 +23,7 @@ tags:
     - liveaction
     - spoilers
 vid_id: '036'
-mux: UefDOdQ00dQ5xLTc0101Mn8w6yVtYrwSBEl
+mux: iPSV0102GxALwC5ZTPriR02zdKaJZzcHYe4
 priority: 0.8
 
 ---

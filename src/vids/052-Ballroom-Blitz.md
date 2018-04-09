@@ -13,6 +13,7 @@ song_info_url: 'https://en.wikipedia.org/wiki/Ballroom_blitz'
 downloads:
     - {url: AbsoluteDestiny-Ballroom_Blitz-480p.m4v, title: '480p mp4', width: 848, height: 352, mimetype: video/mp4}
     - {url: AbsoluteDestiny-Ballroom_Blitz-720p.m4v, title: '720p mp4', width: 1280, height: 528, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Ballroom_Blitz-1080p.m4v, title: '1080p mp4', width: 1280, height: 528, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Ballroom_Blitz-480p.m4v
 svg: AbsoluteDestiny-Ballroom_Blitz.svg
@@ -24,7 +25,7 @@ tags:
     - gift
     - liveaction
 vid_id: '052'
-mux: 6RdhuXYFLsuePJbjvmDexsaI4CqDGy1R
+mux: C7DYQbRRtxV1IvO5TiJlppBtymxHT2L9
 yt_id: kfHYwSH26ts
 
 ---

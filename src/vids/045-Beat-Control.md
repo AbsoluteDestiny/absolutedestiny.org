@@ -11,7 +11,8 @@ song: 'Beat Control'
 artist: 'Tilly and the Wall'
 song_info_url: 'http://en.wikipedia.org/wiki/Beat_Control'
 downloads:
-    - {url: AbsoluteDestiny-Beat_Control-480p.m4v, title: '480p mp4', width: 832, height: 480, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Beat_Control-480p.m4v, title: '480p mp4 (original)', width: 832, height: 480, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Beat_Control-1080p.m4v, title: '1080p mp4 (remaster)', width: 832, height: 480, mimetype: video/mp4}
 srt: AbsoluteDestiny-Beat_Control.vtt
 sd_stream: AbsoluteDestiny-Beat_Control-480p.m4v
 svg: AbsoluteDestiny-Beat_Control.svg
@@ -23,7 +24,7 @@ tags:
     - myfaves
     - spoilers
 vid_id: '045'
-mux: sXMGipK00waLLxG1O1u4tUB202fEYOMhX9
+mux: ukRnrMBlNtO01afBGfqiK02YBRZ1ub46qs
 yt_id: iD5qD-lFYgw
 
 ---

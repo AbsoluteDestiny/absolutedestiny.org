@@ -14,6 +14,7 @@ song_info_url: 'http://en.wikipedia.org/wiki/Say_Aha'
 downloads:
     - {url: AbsoluteDestiny-Say_Aha-fixed-480p.m4v, title: '480p mp4', width: 848, height: 402, mimetype: video/mp4}
     - {url: AbsoluteDestiny-Say_Aha-fixed-720p.m4v, title: '720p mp4', width: 1280, height: 608, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Say_Aha-1080p.m4v, title: '1080p mp4', width: 1280, height: 608, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Say_Aha-fixed-480p.m4v
 svg: AbsoluteDestiny-Say_Aha-fixed.svg
@@ -24,7 +25,7 @@ tags:
     - spoilers
     - gift
 vid_id: '056'
-mux: S5006PQjymXL9LRRn64R4VUGzGfsn1BDR
+mux: w4mKAehoJVFiHiX7uH029eCYMTtgvw29n
 ty_id: ijE09_HcLVw
 priority: 0.8
 
