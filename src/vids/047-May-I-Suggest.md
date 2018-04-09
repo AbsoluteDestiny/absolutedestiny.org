@@ -13,6 +13,7 @@ song_info_url: 'http://www.susanwerner.com/music/m_lap.html'
 downloads:
     - {url: AbsoluteDestiny-May_I_Suggest-480p.m4v, title: '480p mp4', width: 848, height: 480, mimetype: video/mp4}
     - {url: AbsoluteDestiny-May_I_Suggest-720p.m4v, title: '720p mp4', width: 1280, height: 720, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-May_I_Suggest-1080p.m4v, title: '1080p mp4', width: 1280, height: 720, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-May_I_Suggest-480p.m4v
 svg: AbsoluteDestiny-May_I_Suggest.svg
@@ -22,7 +23,7 @@ tags:
     - pixar
     - spoilers
 vid_id: '047'
-mux: IXeFKUaoMMV8rwx9TT4GAlacmIkGLwdp
+mux: KSnNcv2euPHwX9N01AgyKa9Lqf7ydWfqD
 yt_id: 5VuthSQNFvk
 priority: 0.8
 
