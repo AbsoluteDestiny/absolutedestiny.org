@@ -22,7 +22,7 @@ const less = require("metalsmith-less");
 const markdown = require("metalsmith-markdown");
 // const metacopy = require("metalsmith-metacopy");
 // const metadata = require("metalsmith-metadata");
-const nunjucks = require("nunjucks");
+// const nunjucks = require("jstransformer")(require("jstransformer-nunjucks"));
 // const pagination = require("metalsmith-pagination");
 const paths = require("metalsmith-paths");
 const permalinks = require("metalsmith-permalinks");
@@ -42,9 +42,9 @@ const sitedata = frontmatter(fs.readFileSync('./src/config/sitedata.md', "utf8")
 
 let nextId = 0;
 
-nunjucks
-  .configure("./layouts", { watch: false })
-  .addFilter("date", nunjucksDate);
+// nunjucks
+//   .configure("./layouts", { watch: false })
+//   .addFilter("date", nunjucksDate);
 
 // function getFandoms() {
 //   return (files, metalsmith, done) => {
@@ -223,9 +223,12 @@ Metalsmith(process.cwd())
   )
   .use(
     layouts({
-      engine: "nunjucks",
-      directory: './layouts',
-      pattern: "**/*.html"
+      // engine: "nunjucks",
+      // directory: "layouts",
+      pattern: "**/*.html",
+      engineOptions: {
+          filters: {date: nunjucksDate}
+        }
     })
   )
   // .use(
