@@ -178,7 +178,7 @@ Metalsmith(process.cwd())
   )
   .use(
     fileMetadata([
-      { pattern: "*.md", metadata: { layout: "home.njk" } },
+      { pattern: "*.md", metadata: { layout: "base.njk" } },
       { pattern: "vids/**", metadata: { layout: "vid.njk" } },
       { pattern: "vidplayer/**", metadata: { layout: "vidplayer.njk" } }
     ])
