@@ -1,3 +1,4 @@
+// process.env.DEBUG = "metalsmith-timer";
 const fs = require("fs");
 const path = require("path");
 
@@ -32,6 +33,8 @@ const subsetfonts = require("metalsmith-subsetfonts");
 const inlineSource = require("metalsmith-inline-source");
 const sharp = require("metalsmith-sharp");
 const nunjucksDate = require("nunjucks-date");
+const timer = require("metalsmith-timer");
+const msIf = require("metalsmith-if");
 // const sqip = require("sqip");
 // const tags = require("metalsmith-tags");
 // const watch = require("metalsmith-watch");
@@ -80,10 +83,14 @@ Metalsmith(process.cwd())
   })
   .source("./src")
   .destination("./build")
+  .use(timer("clean"))
   .clean(true)
   .use(ignore(["**/*.m4v"]))
+  .use(timer("less"))
   .use(less())
+  .use(timer("autoprefixer"))
   .use(autoprefixer())
+  .use(timer("css move"))
   .use(
     copy({
       pattern: "assets/css/*.css",
@@ -117,6 +124,7 @@ Metalsmith(process.cwd())
   //     moveFile: false
   //   })
   // )
+  .use(timer("move other assets"))
   .use(
     copy({
       pattern: "assets/**/*.*",
@@ -132,7 +140,9 @@ Metalsmith(process.cwd())
       }
     })
   )
+  .use(timer("fingerprint"))
   .use(fingerprint({ pattern: ["css/*.css", "js/*.css"] }))
+  .use(timer("admin css"))
   .use(
     copy({
       pattern: "css/admin/*.*",
@@ -143,6 +153,7 @@ Metalsmith(process.cwd())
     })
   )
   // .use(getFandoms())
+  .use(timer("admin config"))
   .use(
     replace({
       "admin/config.yml": {
@@ -151,6 +162,7 @@ Metalsmith(process.cwd())
       }
     })
   )
+  .use(timer("rename md to basename version"))
   .use(
     each((f, filename) => {
       const file = f;
@@ -159,6 +171,7 @@ Metalsmith(process.cwd())
     })
   )
   .use(ignore(["tags/**", "**/*.less"]))
+  .use(timer("copy vids to vidplayer"))
   .use(
     copy({
       pattern: "vids/*.*",
@@ -176,13 +189,15 @@ Metalsmith(process.cwd())
       }
     })
   )
+  .use(timer("add markdown layout metadata"))
   .use(
     fileMetadata([
-      { pattern: "*.md", metadata: { layout: "base.njk" } },
+      { pattern: "*.md", metadata: { layout: "home.njk" } },
       { pattern: "vids/**", metadata: { layout: "vid.njk" } },
       { pattern: "vidplayer/**", metadata: { layout: "vidplayer.njk" } }
     ])
   )
+  .use(timer("make vids collection"))
   .use(
     collections({
       vids: {
@@ -192,7 +207,9 @@ Metalsmith(process.cwd())
       }
     })
   )
+  .use(timer("transform md to html"))
   .use(markdown())
+  .use(timer("permalinks"))
   .use(
     permalinks({
       // pattern: "post/:date/:title",
@@ -210,27 +227,38 @@ Metalsmith(process.cwd())
       ]
     })
   )
+  .use(timer("make feed"))
   .use(
     feed({
       collection: "vids"
     })
   )
+  .use(timer("fix index.html paths"))
   .use(
     paths({
       property: "paths",
       directoryIndex: "index.html"
     })
   )
+  .use(timer("nunjucks templating"))
   .use(
     layouts({
       // engine: "nunjucks",
       // directory: "layouts",
       pattern: "**/*.html",
       engineOptions: {
-          filters: {date: nunjucksDate}
-        }
+        filters: { date: nunjucksDate }
+      }
     })
   )
+  .use(
+    msIf(
+      process.env.CONTEXT == "production",
+      subsetfonts() // this plugin will run
+    )
+  )
+  // .use(timer("subset google fonts"))
+  // .use(subsetfonts())
   // .use(
   //   inplace({
   //     pattern: "**/*.njk",
@@ -239,18 +267,20 @@ Metalsmith(process.cwd())
   //     }
   //   })
   // )
-  .use(subsetfonts())
+  .use(timer("inline svgs"))
   .use(
     inlineSource({
       swallowErrors: true
     })
   )
+  .use(timer("minify html"))
   .use(
     htmlMinifier({
       removeAttributeQuotes: false,
       removeEmptyAttributes: false
     })
   )
+  .use(timer("create sitemap"))
   .use(
     sitemap({
       hostname: sitedata.url,
@@ -258,6 +288,7 @@ Metalsmith(process.cwd())
       pattern: ["vid/**/*.html", "*.html"]
     })
   )
+  .use(timer("google webmaster file"))
   .use(
     copy({
       pattern: "**/googlea7adbfb6a9a0f483",

@@ -2313,6 +2313,12 @@ metalsmith-html-minifier@^3.0.0:
     lodash.defaultsdeep "^4.1.0"
     multimatch "^2.1.0"
 
+metalsmith-if@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/metalsmith-if/-/metalsmith-if-0.1.1.tgz#e6dd9f18ba6562bc2fadfddd1fc38ce5319d3fae"
+  dependencies:
+    debug "^2.2.0"
+
 metalsmith-ignore@^0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/metalsmith-ignore/-/metalsmith-ignore-0.1.2.tgz#6ae6c694ba62a41585e8b481a11e2928c5ac4028"
@@ -2423,6 +2429,12 @@ metalsmith-text-replace@^1.0.1:
   dependencies:
     debug "^1.0.2"
     minimatch "^1.0.0"
+
+metalsmith-timer@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/metalsmith-timer/-/metalsmith-timer-0.0.2.tgz#7babbfae0ca5a1f1026620ef8fd70cbeb1fb24e9"
+  dependencies:
+    debug "^2.2.0"
 
 metalsmith-watch@^1.0.3:
   version "1.0.3"
