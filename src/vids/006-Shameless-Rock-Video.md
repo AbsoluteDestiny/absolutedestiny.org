@@ -11,18 +11,20 @@ song: 'Speed King'
 artist: 'Deep Purple'
 song_info_url: 'http://en.wikipedia.org/wiki/Deep_Purple_in_Rock'
 downloads:
-    - {url: AbsoluteDestiny-Shameless_Rock_Video-480p.m4v, title: '480p mp4', width: 640, height: 480, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Shameless_Rock_Video-480p.m4v, title: '480p mp4 (original)', width: 640, height: 480, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Shameless_Rock_Video-720p.m4v, title: '720p mp4 (remaster)', width: yarn a, height: 480, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Shameless_Rock_Video-1080p.m4v, title: '1080p mp4 (remaster)', width: 1440, height: 1080, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Shameless_Rock_Video-480p.m4v
 svg: AbsoluteDestiny-Shameless_Rock_Video.svg
 bgimg: AbsoluteDestiny-Shameless_Rock_Video.jpg
-hd_stream: null
+hd_stream: AbsoluteDestiny-Shameless_Rock_Video-1080p.m4v
 tags:
     - anime
     - rockandmetal
     - myfaves
 vid_id: '006'
-mux: sICiO5ikZ6L6TIRfD5C7C01RgVHzmkN8k
+mux: zMjgNFtcJQD02rLamE0102NY114GzvNcaWk
 yt_id: 4tHAtz0g4mE
 priority: 1.0
 
