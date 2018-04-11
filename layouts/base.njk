@@ -12,8 +12,8 @@
     <meta property="fb:app_id" content="{{ site.fb_appid }}">
     <meta property="og:url" content="{{ site.url }}/">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="{{ site.title }}">
-    <meta property="og:image" content="{{ site.url }}/images/fighting-forms.jpg">
+    <meta property="og:title" content="{{ site.title | safe }}">
+    <meta property="og:image" content="{{ site.url }}/media/ad-love-and-pop-og.jpg">
     <meta property="og:width" content="1200">
     <meta property="og:height" content="630">
     <meta property="og:description" content="{{ site.description}}">
@@ -21,14 +21,14 @@
     <meta property="og:locale" content="en_US">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="{{ site.twitter }}">
-    <meta name="twitter:title" content="{{ site.title }}">
+    <meta name="twitter:title" content="{{ site.title | safe }}">
     <meta name="twitter:description" content="{{ site.description }}">
-    <meta name="twitter:image" content="{{ site.url }}/images/fighting-forms.jpg">
+    <meta name="twitter:image" content="{{ site.url }}/media/ad-love-and-pop-og.jpg">
     <meta name="twitter:url" content="{{ site.url }}">
     {% endblock %}
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ fingerprint["/favicon-32x32.png"] }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ fingerprint["/favicon-16x16.png"] }}">
     <link rel="manifest" href="/site.webmanifest">
     <meta name="msapplication-TileColor" content="#603cba">
     <meta name="theme-color" content="#d7e1ec">
