@@ -2085,10 +2085,6 @@ form-data@~2.1.1:
     combined-stream "^1.0.5"
     mime-types "^2.1.12"
 
-framesync@^3.0.2, framesync@^3.1.7:
-  version "3.1.7"
-  resolved "https://registry.yarnpkg.com/framesync/-/framesync-3.1.7.tgz#9b9aa3eff8598625302597851a428f40c3dc1c6b"
-
 fresh@0.5.0:
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/fresh/-/fresh-0.5.0.tgz#f474ca5e6a9246d6fd8e0953cfa9b9c805afa78e"
@@ -2284,10 +2280,6 @@ gray-matter@^2.0.0:
     extend-shallow "^2.0.1"
     js-yaml "^3.8.1"
     toml "^2.3.2"
-
-gsap@^1.20.4:
-  version "1.20.4"
-  resolved "https://registry.yarnpkg.com/gsap/-/gsap-1.20.4.tgz#005fba2a7bfbb3b9d27bd77e1634d2bad365a86a"
 
 har-schema@^1.0.5:
   version "1.0.5"
@@ -2877,12 +2869,6 @@ klaw@^1.0.0:
   resolved "https://registry.yarnpkg.com/klaw/-/klaw-1.3.1.tgz#4088433b46b3b1ba259d78785d8e96f73ba02439"
   optionalDependencies:
     graceful-fs "^4.1.9"
-
-kute.js@^1.6.5:
-  version "1.6.5"
-  resolved "https://registry.yarnpkg.com/kute.js/-/kute.js-1.6.5.tgz#64cac3adfe8148c107a1e4c99b8c2c45451300ce"
-  dependencies:
-    uglify-js "^2.7.3"
 
 lazy-cache@^1.0.3:
   version "1.0.4"
@@ -3534,10 +3520,6 @@ negotiator@0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.1.tgz#2b327184e8992101177b28563fb5e7102acd0ca9"
 
-nm8@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/nm8/-/nm8-0.2.0.tgz#cd94fab008cf36758e96098d84163720c8f4b5b6"
-
 no-case@^2.2.0:
   version "2.3.2"
   resolved "https://registry.yarnpkg.com/no-case/-/no-case-2.3.2.tgz#60b813396be39b3f1288a4c1ed5d1e7d28b464ac"
@@ -3868,14 +3850,6 @@ polymorph-js@^0.2.1:
   resolved "https://registry.yarnpkg.com/polymorph-js/-/polymorph-js-0.2.1.tgz#b95a6e14cd0c37d1a5c12379f9dd12d193ca0edc"
   dependencies:
     "@delucis/filesize-cli" "^1.1.0"
-
-popmotion@^8.1.22:
-  version "8.1.22"
-  resolved "https://registry.yarnpkg.com/popmotion/-/popmotion-8.1.22.tgz#71857484546ae5b7335b0704423a3a761de1fe67"
-  dependencies:
-    framesync "^3.1.7"
-    style-value-types "^1.0.4"
-    stylefire "^1.2.9"
 
 portscanner@2.1.1:
   version "2.1.1"
@@ -4695,17 +4669,6 @@ strip-json-comments@~2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-2.0.1.tgz#3c531942e908c2697c0ec344858c286c7ca0a60a"
 
-style-value-types@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/style-value-types/-/style-value-types-1.0.4.tgz#58df3a09281d719d981ee4a317addc434eecc877"
-
-stylefire@^1.2.9:
-  version "1.2.14"
-  resolved "https://registry.yarnpkg.com/stylefire/-/stylefire-1.2.14.tgz#33c711e3f79da8e8ab80e4a935b12576a4b92c8e"
-  dependencies:
-    framesync "^3.0.2"
-    style-value-types "^1.0.4"
-
 "substitute@https://github.com/segmentio/substitute/archive/0.0.1.tar.gz":
   version "0.0.1"
   resolved "https://github.com/segmentio/substitute/archive/0.0.1.tar.gz#432866985b03c3b0d3f71ac63d1ae1a18dfaf47d"
@@ -4922,15 +4885,6 @@ uglify-js@3.3.x:
   dependencies:
     commander "~2.15.0"
     source-map "~0.6.1"
-
-uglify-js@^2.7.3:
-  version "2.8.29"
-  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-2.8.29.tgz#29c5733148057bb4e1f75df35b7a9cb72e6a59dd"
-  dependencies:
-    source-map "~0.5.1"
-    yargs "~3.10.0"
-  optionalDependencies:
-    uglify-to-browserify "~1.0.0"
 
 uglify-to-browserify@~1.0.0:
   version "1.0.2"
