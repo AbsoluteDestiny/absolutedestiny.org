@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -54,6 +54,7 @@
           Copyright © <script>document.currentScript.insertAdjacentHTML('beforebegin', new Date().getFullYear());</script>&nbsp;<a href="mailto:ian@absolutedestiny.org">AbsoluteDestiny</a>
       </footer>
     {% endblock %}
+    <script src="/{{ fingerprint["js/bundle.js"] }}"></script>
     {% block scripts %}
     {% endblock %}
   </body>
