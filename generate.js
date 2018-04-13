@@ -185,7 +185,7 @@ buildJS().then(() => {
     })
   )
   .use(timer("fingerprint"))
-  .use(fingerprint({ pattern: ["css/*.css", "js/*.css", "js/*.js"] }))
+  .use(fingerprint({ pattern: ["css/*.css", "js/*.js"] }))
   .use(timer("admin css"))
   .use(
     copy({
