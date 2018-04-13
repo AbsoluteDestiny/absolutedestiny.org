@@ -7,8 +7,33 @@ import Navigo from "navigo";
 import Plyr from "plyr";
 import Hls from "hls.js";
 
-function main() {
+function getSVGPaths() {
   const svgPaths = {};
+  
+  function getPathData(svg) {
+    const data = [];
+    Array.prototype.forEach.call(svg.querySelectorAll("path"), path => {
+      data.push({
+        fill: path.getAttribute("fill") || "transparent",
+        d: path.getAttribute("d")
+      });
+    });
+    return data;
+  }
+
+  svgPaths.none = getPathData(document.getElementById("bgsvg"));
+  Array.prototype.forEach.call(
+    document.querySelectorAll("svg[data-vid-svg]"),
+    svg => {
+      svgPaths[svg.id.split("svg-")[1]] = getPathData(svg);
+    }
+  );
+  return svgPaths;
+}
+
+function main() {
+  document.getElementById('details').style = '';
+  const svgPaths = getSVGPaths();
   const svgDuration = 1000;
   let lastX = 0;
   let lastY = 0;
@@ -20,16 +45,7 @@ function main() {
   if (Hls.isSupported()) {
     hls = new Hls(hlsConfig);
   }
-  function getPathData(svg) {
-    const data = [];
-    Array.prototype.forEach.call(svg.querySelectorAll("path"), path => {
-      data.push({
-        fill: path.getAttribute("fill") || "transparent",
-        d: path.getAttribute("d")
-      });
-    });
-    return data;
-  }
+
   function morph(to, delay = 0) {
     const target = document.getElementById("bgsvg");
     Array.prototype.forEach.call(target.querySelectorAll("path"), (path, i) => {
@@ -50,14 +66,6 @@ function main() {
       }
     });
   }
-
-  svgPaths.none = getPathData(document.getElementById("bgsvg"));
-  Array.prototype.forEach.call(
-    document.querySelectorAll("svg[data-vid-svg]"),
-    svg => {
-      svgPaths[svg.id.split("svg-")[1]] = getPathData(svg);
-    }
-  );
 
   function setActiveVid(id) {
     player.stop();
@@ -152,7 +160,9 @@ function main() {
     document
       .querySelector('[name="twitter:url"]')
       .setAttribute("content", window.location.href);
+    vidNav.style = '';
     vidNav.classList.add("is-active");
+    vidDetails.style = '';
     vidDetails.classList.add("is-active");
     document.body.classList.add("has-vid");
     morph(svgPaths[id]);
