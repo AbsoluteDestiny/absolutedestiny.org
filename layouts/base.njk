@@ -36,6 +36,7 @@
     <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
     <!-- CSS -->
     <link rel="stylesheet" href="/{{ fingerprint["css/site.css"] }}"> 
+    <script>var site = {{site | dump | safe}};</script>
     {% block head %}{% endblock %}
   </head>
   <body {% block bodyAttrs %}{% endblock %}>

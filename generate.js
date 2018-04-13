@@ -38,6 +38,11 @@ const msIf = require("metalsmith-if");
 // const sqip = require("sqip");
 // const tags = require("metalsmith-tags");
 // const watch = require("metalsmith-watch");
+const rollup = require('rollup');
+const commonjs = require("rollup-plugin-commonjs");
+const nodeResolve = require('rollup-plugin-node-resolve');
+const babel = require("rollup-plugin-babel");
+const babelMinify = require('rollup-plugin-babel-minify');
 
 const sitedata = frontmatter(fs.readFileSync('./src/config/sitedata.md', "utf8")).attributes;
 
@@ -77,14 +82,53 @@ let nextId = 0;
 //   };
 // }
 
-Metalsmith(process.cwd())
+async function buildJS() {
+  const bundle = await rollup.rollup({
+    input: "js/index.js",
+    plugins: [
+      nodeResolve({
+        browser: true
+      }),
+      commonjs({
+        sourceMap: true
+      }),
+      babel({
+        exclude: 'node_modules/**',
+        sourceMap: true,
+        presets: [
+          [
+            "env",
+            {
+              "modules": false
+            }
+          ]
+        ],
+      }),
+      babelMinify({
+        sourceMap: true
+      })
+    ],
+  });
+
+  const outputOptions = {
+    format: "iife",
+    sourcemap: true,
+    // sourcemapFile: "./build/js/bundle.js.map",
+    file: "./src/assets/js/bundle.js",
+  };
+
+  await bundle.write(outputOptions);
+}
+
+buildJS().then(() => {
+  Metalsmith(process.cwd())
   .metadata({
     site: sitedata
   })
   .source("./src")
   .destination("./build")
   .use(timer("clean"))
-  .clean(true)
+  // .clean(true)
   .use(ignore(["**/*.m4v"]))
   .use(timer("less"))
   .use(less())
@@ -141,7 +185,7 @@ Metalsmith(process.cwd())
     })
   )
   .use(timer("fingerprint"))
-  .use(fingerprint({ pattern: ["css/*.css", "js/*.css"] }))
+  .use(fingerprint({ pattern: ["css/*.css", "js/*.css", "js/*.js"] }))
   .use(timer("admin css"))
   .use(
     copy({
@@ -253,7 +297,7 @@ Metalsmith(process.cwd())
   )
   .use(
     msIf(
-      process.env.CONTEXT == "production",
+      process.env.CONTEXT === "production",
       subsetfonts() // this plugin will run
     )
   )
@@ -303,3 +347,4 @@ Metalsmith(process.cwd())
       throw err;
     }
   });
+})

@@ -61,3 +61,4 @@ build/
 ignore/
 mp4/
 alldata20170919.json
+src/assets/js/bundle.*
