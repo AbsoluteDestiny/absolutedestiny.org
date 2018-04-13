@@ -1,5 +1,6 @@
 {% extends "base.njk" %}}
 
+{%block bodyAttrs%}{% if vid_id %}class="has-vid"{% endif %}{%endblock%}
 {% block main %}
     <img inline id="bgsvg" preserveAspectRatio="xMinYMin slice" class="c-bg-svg c-bg-svg--backup" src="src/media/bg3.svg" style="opacity: 1">
     <img class="c-bg-img" data-vid-img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" onload="this.classList.add('is-loaded')">
@@ -26,10 +27,11 @@
                 {% endif %}
             {% endfor %}
         </nav>
-        <div class="l-details">
+        <div id="details" class="l-details" {% if not vid_id %}style="display: none;" {% endif %}>
             <a href="/" class="c-backnav" data-navigo><span class="c-backnav__link"><svg style="vertical-align: bottom;" fill="#FFFFFF" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M21 11H6.83l3.58-3.59L9 6l-6 6 6 6 1.41-1.41L6.83 13H21z"/></svg> back to vids</span><span class="c-backnav__title">{{site.title}}</span></a>
             {% for vid in vids %}
-                <section class="c-details" data-vid-details="{{vid.vid_id}}">
+                {% set active = " is-active" if  (vid_id == vid.vid_id)  else "" %}
+                <section class="c-details{{active}}" data-vid-details="{{vid.vid_id}}">
                     <header class="c-details__header">
                         <h1 class="c-details__heading">{{vid.title}}</h1>
                         
@@ -55,8 +57,4 @@
         </div>
         
     </div>
-{% endblock %}
-
-{% block scripts %}
-<script src="{{ fingerprint["js/bundle.js"] }}"></script>
 {% endblock %}
