@@ -25,6 +25,8 @@ tags:
 vid_id: '061'
 mux: AzXtl5Irm1VTxNlwcnNZBMgb5cEiWqN02
 yt_id: kScml0kc2pQ
+pw: 888
+ph: 480
 
 ---
 But I can't help myself...

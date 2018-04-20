@@ -27,6 +27,8 @@ tags:
 vid_id: '013'
 mux: YdTI5iC54KM5xsP4NRpccWWU00wvGxFoZ
 yt_id: ZRbqmnypzrM
+pw: 640
+ph: 480
 
 ---
 Another situation where I was helping out a multi editor project. This time to a 4 minute song about Donald Duck. Ugh.

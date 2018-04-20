@@ -24,6 +24,8 @@ tags:
 vid_id: '016'
 mux: ggiaPZIGKnAPVr8L1PWettSNIGmbraq6
 yt_id: 605E5ncr68s
+pw: 640
+ph: 480
 
 ---
 Part two of the Dinosaur Studios pretence. Works really well in a big audience.

@@ -24,6 +24,8 @@ tags:
 vid_id: '043'
 mux: oswjUjuxbAc028elZsP4z02ZzeuaK1R9K9
 priority: 1.0
+pw: 720
+ph: 405
 
 ---
 brothersbloodcomradespartnerfamilycuzz

@@ -28,6 +28,8 @@ vid_id: '056'
 mux: w4mKAehoJVFiHiX7uH029eCYMTtgvw29n
 ty_id: ijE09_HcLVw
 priority: 0.8
+pw: 848
+ph: 402
 
 ---
 Louder than they allow, allow

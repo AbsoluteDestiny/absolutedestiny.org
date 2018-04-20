@@ -24,6 +24,8 @@ tags:
 vid_id: '002'
 mux: Urw8hXv02EnF4B5r4hV2ra5Ac1y02UBIeR
 yt_id: daf4pEjpKnI
+pw: 640
+ph: 480
 
 ---
 Kare Kano (as it is known) is such fun to make videos with due to the massive amounts of visual comedy. I later remastered this one a tiny tiny bit and added some, not particularly necessary, fancy additions and tweaked the timing a touch. Still a video I enjoy but technically flawed in many ways.

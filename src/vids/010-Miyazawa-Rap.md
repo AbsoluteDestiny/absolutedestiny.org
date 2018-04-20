@@ -25,6 +25,8 @@ tags:
 vid_id: '010'
 mux: YBODPytSurvbwNlKOwDKUdKTAqF002ZG8
 yt_id: Z_zT99QZFEU
+pw: 640
+ph: 480
 
 ---
 Really makes no sense without having seen both shows used.

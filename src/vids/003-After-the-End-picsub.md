@@ -23,6 +23,8 @@ tags:
     - nospoilers
 vid_id: '003'
 mux: FC5GCFbOxT8Y9bsw5e00Zr02VjgCjcFdXM
+pw: 640
+ph: 480
 
 ---
 While doing various fansubs, I decided to give some visuals to the Evangelion Audio Drama. The translation was readily available on the internet but it was much more fun to watch it the way you would an episode. So using some really rudimentary Photoshop, I made effectively a slide show for the audio drama.

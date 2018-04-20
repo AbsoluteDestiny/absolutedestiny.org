@@ -22,6 +22,8 @@ tags:
     - liveaction
 vid_id: '033'
 mux: 110201iGe50100MVvo1Bw3USWfYsfVteQBPA
+pw: 848
+ph: 384
 
 ---
 Oh Dae-su's revenge fantasy.

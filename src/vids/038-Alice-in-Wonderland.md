@@ -23,6 +23,8 @@ tags:
 vid_id: '038'
 mux: UMWmwbOKOYpIrwr00KmcRIMfvtpacmEnW
 yt_id: mZHhnXGRGeo
+pw: 640
+ph: 272
 
 ---
 A short parody made one lazy morning.

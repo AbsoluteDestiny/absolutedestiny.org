@@ -24,6 +24,8 @@ vid_id: '014'
 mux: 83bLdURf3rRG7c5RvUJB02qy1mtAMGcKS
 yt_id: GERenXBvDLc
 priority: 0.8
+pw: 720
+ph: 405
 
 ---
 Ill-fated teen romance and dreamland melodrama abound.

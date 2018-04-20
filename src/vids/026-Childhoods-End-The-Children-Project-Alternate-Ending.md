@@ -22,6 +22,8 @@ tags:
     - multieditorproject
 vid_id: '026'
 mux: 9JZjeD5TFpaxdN9Wi02JdSaK201IUY8LUu
+pw: 720
+ph: 405
 
 ---
 I guess a critique of the eroticisation of children in anime wasn't what the project coordinated wanted for <a href="http://www.animemusicvideos.org/members/members_videoinfo.php?v=37053">The Children Project</a>'s last track.

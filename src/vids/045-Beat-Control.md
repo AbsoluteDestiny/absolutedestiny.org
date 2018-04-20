@@ -26,6 +26,8 @@ tags:
 vid_id: '045'
 mux: ukRnrMBlNtO01afBGfqiK02YBRZ1ub46qs
 yt_id: iD5qD-lFYgw
+pw: 832
+ph: 480
 
 ---
 Ohana.

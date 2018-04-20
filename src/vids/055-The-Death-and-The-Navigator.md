@@ -23,6 +23,8 @@ tags:
     - gift
 vid_id: '055'
 mux: xhh3JDcn00yZAkMK9dukp1vJ2ye9IXqEx
+pw: 720
+ph: 405
 
 ---
 for Gwyn

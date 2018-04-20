@@ -23,6 +23,8 @@ tags:
     - nospoilers
 vid_id: '005'
 mux: Ln9Wd4vsqC3OxmzEs1IGWulj1ptF02M01r
+pw: 720
+ph: 405
 
 ---
 Made as a wedding gift for Marco and Christina of Turboneko Studios.

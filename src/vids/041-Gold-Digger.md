@@ -25,6 +25,8 @@ tags:
 vid_id: '041'
 mux: L7RoO0011MnIKuqU12fRG00hh01kpD7Pi92
 yt_id: lnRVIBJmshY
+pw: 640
+ph: 480
 
 ---
 Scarlett O'Hara, proto-feminist? manipulator? tragic lovesick fool? Caution: blind appropriation causes unintended but entirely predictable race issues.

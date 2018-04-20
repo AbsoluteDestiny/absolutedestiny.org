@@ -24,6 +24,8 @@ tags:
 vid_id: '027'
 mux: XY99DCJ0055JzDoZ2uvfT027018ETcKSVZ9
 yt_id: uPjkyxOf0-A
+pw: 720
+ph: 405
 
 ---
 Noticing that Ariel was, effectively, an anime <a href="http://en.wikipedia.org/wiki/Magical_girl">Magical Girl</a> I made this vid to the 3rd Cardcaptor Sakura opening.

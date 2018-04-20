@@ -25,6 +25,8 @@ tags:
 vid_id: '023'
 mux: 01z01w9Rrwb01Yj8qzMaa2gVIkwHRby98Il
 yt_id: -Y4wp2aY2ik
+pw: 640
+ph: 480
 
 ---
 A parody video made for a panel at Anime Weekend Atlanta about the preparations for that year's Iron Chef contest.

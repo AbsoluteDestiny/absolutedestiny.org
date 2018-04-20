@@ -21,6 +21,8 @@ tags:
     - youhadtobethere
 vid_id: '062'
 mux: k2HhbhmD6Gw6Dpq7Pb02cR00tWaaYHQGv1
+pw: 1024
+ph: 720
 
 ---
 too late to die young now

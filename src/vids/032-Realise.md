@@ -25,6 +25,8 @@ tags:
 vid_id: '032'
 mux: jrpgdIADOtkaQ1C8ryS01iUgr45q7whZh
 yt_id: 0-5XTSD7HyQ
+pw: 720
+ph: 405
 
 ---
 Coming of age nostalgia found within a surprisingly enchanting Miike movie.

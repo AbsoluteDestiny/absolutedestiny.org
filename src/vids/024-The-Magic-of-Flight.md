@@ -29,6 +29,8 @@ tags:
 vid_id: '024'
 mux: VlhiNV99TB1JEbO2oaQeyBW7tnzRgetb
 yt_id: gOdf1SOk-qs
+pw: 640
+ph: 480
 
 ---
 The video I edited at Iron Chef, in 2 hours, with a program I'd never used before. It was hell and I didn't know the source footage well enough.

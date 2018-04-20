@@ -25,6 +25,8 @@ tags:
 vid_id: '051'
 mux: dk02H4gk3sg601kSw3tI2Fpg00h9uu4MNVZ
 yt_id: nnvsM2GSbqQ
+pw: 720
+ph: 405
 
 ---
 For Gianduja Kiss, Festivids 2011/12

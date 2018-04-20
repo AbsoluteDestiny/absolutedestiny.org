@@ -39,6 +39,8 @@ tags:
 vid_id: '029'
 mux: 7IQ9NR4lndjGRu2kL01LT5cKlcwTuVIU2
 yt_id: iVyJq6Y_vdc
+pw: 640
+ph: 480
 
 ---
 Colourful, silly, celebration of dance vid.

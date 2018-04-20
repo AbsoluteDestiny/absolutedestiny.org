@@ -25,6 +25,9 @@ tags:
 vid_id: '001'
 mux: TUAW83Zt3YLvQpLKbr26wiFXWktt701ZJ
 yt_id: fdMnphZ5F70
+pw: 640
+ph: 480
+
 
 ---
 My first amv. Vaguely about the 'Wired' addiction in Serial Experiments Lain. Made to test out a Pinnacle DC30 capture card that we were using for fansubbing.

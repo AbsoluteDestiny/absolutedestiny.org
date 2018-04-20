@@ -22,6 +22,8 @@ tags:
 vid_id: '022'
 mux: 6eFqMFUZYYaAts7fNmU8wddFtVWdJ7Oa
 yt_id: eOg_n-zvIZk
+pw: 800
+ph: 300
 
 ---
 The first live action video. Very static editing-wise, really just a collection of colours and nicely framed character shots.

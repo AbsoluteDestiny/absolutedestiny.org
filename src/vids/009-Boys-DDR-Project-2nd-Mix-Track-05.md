@@ -24,6 +24,8 @@ tags:
     - nospoilers
 vid_id: '009'
 mux: HbiBBbm7TZydY21LpAn01cXWHFSQfQCJK
+pw: 640
+ph: 352
 
 ---
 I was asked at the last minute to do this particular track on the 2nd DDR Project. I agreed.

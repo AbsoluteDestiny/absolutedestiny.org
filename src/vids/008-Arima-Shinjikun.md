@@ -26,6 +26,8 @@ vid_id: '008'
 mux: xyMwPNxp8L2fSizjhZnK1KMBB7cgwH72
 yt_id: GdY8K9RkTqo
 priority: 0.8
+pw: 640
+ph: 480
 
 ---
 This video is a character profile of two characters from animations directed by Hideaki Anno done in the style of his post-Nadia work. As such, it's very stylised and not to everyone's taste. Despite being essentially an experimental video, it was very well received and is one of my favourites.

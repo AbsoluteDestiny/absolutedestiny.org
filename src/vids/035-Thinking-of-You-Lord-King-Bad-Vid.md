@@ -25,6 +25,8 @@ tags:
 vid_id: '035'
 mux: UXeREeCwZvOS36frB02LA6jg4Yb4aoB9l
 yt_id: _yuCLyxJIS0
+pw: 640
+ph: 246
 
 ---
 Made during <a href="http://fanlore.org/wiki/Vividcon/Vividcon_2005">Vividcon 2005</a> for the Lord King Bad Vid party.
