@@ -25,6 +25,8 @@ tags:
 vid_id: '036'
 mux: iPSV0102GxALwC5ZTPriR02zdKaJZzcHYe4
 priority: 0.8
+pw: 848
+ph: 384
 
 ---
 Tribal homo-eroticism, war and paranoia. Kurtz throws a hell of a party.

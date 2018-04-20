@@ -24,6 +24,8 @@ tags:
 vid_id: '028'
 mux: ItquduruR976sBQ1duqvqdt2DlLtUaNT
 yt_id: jL2iy-3s8Yo
+pw: 640
+ph: 480
 
 ---
 Filling in for a multi-editor project again. This time giving me an excuse to vid Noiseman.

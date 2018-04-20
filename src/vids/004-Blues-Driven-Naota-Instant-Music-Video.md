@@ -22,6 +22,8 @@ tags:
 vid_id: '004'
 mux: 1mljLiywyrIpnRjOfurO3r02S01rtH1885
 yt_id: ODL2u10sqOg
+pw: 640
+ph: 480
 
 ---
 Made for an instructional panel on making music videos at MinamiCon 2002 and hence contains a lot of techniques which may or may not be appropriate for this video.

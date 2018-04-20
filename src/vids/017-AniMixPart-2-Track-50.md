@@ -24,6 +24,8 @@ tags:
 vid_id: '017'
 mux: EOZ3PKR02uWfr01CLW3OgEEnRsIFbMWUz5
 yt_id: U9pXhwCH7ZE
+pw: 640
+ph: 480
 
 ---
 Another gap filler for a multi-editor project. They don't get much shorter than this.

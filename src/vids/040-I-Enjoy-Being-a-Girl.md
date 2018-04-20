@@ -29,6 +29,8 @@ vid_id: '040'
 mux: o01ABVPl2gK4y1MP00NrwlPsHpj2ZzgJx00
 yt_id: PUMvjgSzLAw
 priority: 0.9
+pw: 640
+ph: 480
 
 ---
 Made for the <a href="http://fanlore.org/wiki/Vividcon/Vividcon_2006">Vividcon 2006</a> auction for Par Avion, a simple look at some role-model female TV characters.

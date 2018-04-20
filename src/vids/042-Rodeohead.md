@@ -28,6 +28,8 @@ vid_id: '042'
 mux: kIU01ujllsoFGMrxKQvhgnGx7600cwfnh7
 yt_id: CMM0-DLSA7k
 priority: 1.0
+pw: 848
+ph: 416
 
 ---
 My interpretation of the canon of 'Firefly' told through bluegrass covers of Radiohead songs.

@@ -24,6 +24,8 @@ tags:
 vid_id: '037'
 mux: aqNqCAgRgoh3RC6da02mp2666bLXIHZMR
 yt_id: KhqoikADah8
+pw: 848
+ph: 336
 
 ---
 Buddy nee Syndrome.

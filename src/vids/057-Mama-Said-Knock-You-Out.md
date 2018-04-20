@@ -26,6 +26,8 @@ tags:
 vid_id: '057'
 mux: 8vhjswnFXoq02SL7ncxyj02004K7U9dDpcR
 priority: 1.0
+pw: 640
+ph: 480
 
 ---
 for Voleuse with special thanks to Eunice and Big Big Truck

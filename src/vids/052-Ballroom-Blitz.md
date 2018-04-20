@@ -27,6 +27,8 @@ tags:
 vid_id: '052'
 mux: C7DYQbRRtxV1IvO5TiJlppBtymxHT2L9
 yt_id: kfHYwSH26ts
+pw: 848
+ph: 352
 
 ---
 For SDWolfpup, Festivids 2011/12

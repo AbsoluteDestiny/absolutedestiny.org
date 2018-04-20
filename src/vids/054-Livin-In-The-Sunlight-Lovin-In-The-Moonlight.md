@@ -25,6 +25,8 @@ tags:
 vid_id: '054'
 mux: MMY9EbZcRO9FSipixo02wnub9xv8HUnKU
 yt_id: GcKlZ5jaq7M
+pw: 720
+ph: 405
 
 ---
 Things that bother you, never bother me!

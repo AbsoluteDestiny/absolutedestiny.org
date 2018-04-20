@@ -28,6 +28,8 @@ tags:
     - liveaction
 vid_id: '034'
 mux: ynUemrlHmwmMwRPXazngObTXe3K9cP7A
+pw: 720
+ph: 405
 
 ---
 A visual canon of exploitation movie revenge.

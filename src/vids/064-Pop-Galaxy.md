@@ -25,6 +25,8 @@ tags:
 vid_id: '064'
 mux: J01DG029rb7pSiBnf02hF1DrUZg56PRAyWq
 yt_id: aGrNRlT-sK4
+pw: 720
+ph: 405
 
 ---
 Come on rock my world (for eruthros)

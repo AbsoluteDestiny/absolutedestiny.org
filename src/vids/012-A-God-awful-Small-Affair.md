@@ -24,6 +24,8 @@ tags:
 vid_id: '012'
 mux: TtxEofUBLCvgSOx2GAZ6cRDC00bHt0242u
 yt_id: qz71EoT1zZM
+pw: 720
+ph: 405
 
 ---
 A critique of Rintaro's Metropolis and my first experiment with After Effects.

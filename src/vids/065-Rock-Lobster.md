@@ -27,6 +27,8 @@ tags:
 vid_id: '065'
 mux: SkCHl8zCCit901ReJ5nEZcPcRPvBb77yu
 yt_id: ywDpJOe-GsA
+pw: 640
+ph: 480
 
 ---
 for Jetpack Monkey

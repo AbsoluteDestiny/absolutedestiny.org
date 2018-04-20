@@ -23,6 +23,8 @@ tags:
     - nospoilers
 vid_id: '015'
 mux: 02aHtMV6301m01uzAkS4pfNGxP3N4c9qxXA
+pw: 640
+ph: 352
 
 ---
 Made as a joke. Deliberately pretentious attempt at baiting comments using sockpuppets. This is the film noir one.

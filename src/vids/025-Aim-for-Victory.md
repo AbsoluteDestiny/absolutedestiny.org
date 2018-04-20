@@ -22,6 +22,8 @@ tags:
 vid_id: '025'
 mux: UMWmwbOKOYpIrwr00KmcRIMfvtpacmEnW
 yt_id: KbcWxwBtmdE
+pw: 640
+ph: 480
 
 ---
 Noriko's coming of age story told with giant robots and incredibly cheesy 80s synth. Pretty great, tbh.

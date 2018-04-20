@@ -23,6 +23,8 @@ tags:
     - liveaction
 vid_id: '039'
 mux: MyPVY4ulVZESOvA6XLNFgnRsGqVsJsQ00
+pw: 720
+ph: 405
 
 ---
 Sam Tyler is lost and confused in some distant pop culture nightmare.

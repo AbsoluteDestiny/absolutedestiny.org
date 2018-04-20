@@ -22,6 +22,8 @@ tags:
     - nospoilers
 vid_id: '011'
 mux: 3sdFSLvMqRrgiLbZPBjKWuupCskoAwe01
+pw: 640
+ph: 480
 
 ---
 It makes sense if you know the show, honestly.

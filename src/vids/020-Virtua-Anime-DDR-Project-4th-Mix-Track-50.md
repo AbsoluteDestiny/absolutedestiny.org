@@ -28,6 +28,8 @@ tags:
 vid_id: '020'
 mux: SztxuoMHGLMRZiHQ4OH6IgkWxML2h7KP
 yt_id: wi9p4banuR0
+pw: 640
+ph: 480
 
 ---
 First and last time I used 3D models in a vid. This was painful to make and it took a seriously long time too. The result was fun though and at least I can say I've tried making 3D and made something enjoyable.

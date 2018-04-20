@@ -22,6 +22,8 @@ tags:
     - nospoilers
 vid_id: '019'
 mux: 4a2jaFKTYI9002fAiO6viedgDCMr7kOmB
+pw: 640
+ph: 352
 
 ---
 This video was commissioned by ADV for their DVD release of the anime <cite>Noir</cite>. No special effects or distinctive digital manipulations could be used and no changes to the song choice or cut.

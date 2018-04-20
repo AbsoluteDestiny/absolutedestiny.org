@@ -25,6 +25,8 @@ tags:
 vid_id: '048'
 mux: dDaw46qMEHoE63vwVzdjPeDYxKHDVVF4
 yt_id: 2HMJN_3o2eg
+pw: 816
+ph: 480
 
 ---
 Made during Festivids 2011/12 for stephantom

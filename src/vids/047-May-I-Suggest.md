@@ -26,6 +26,8 @@ vid_id: '047'
 mux: KSnNcv2euPHwX9N01AgyKa9Lqf7ydWfqD
 yt_id: 5VuthSQNFvk
 priority: 0.8
+pw: 720
+ph: 405
 
 ---
 The best part of your life.

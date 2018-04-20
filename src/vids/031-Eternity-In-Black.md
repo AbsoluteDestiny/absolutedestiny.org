@@ -23,6 +23,8 @@ tags:
     - youhadtobethere
 vid_id: '031'
 mux: S9jQDjJ7xXPFZhfBUF4h46A4i0101WfaTE
+pw: 720
+ph: 405
 
 ---
 I tried but ultimately this vid was just plain boring. Oh well.

@@ -24,6 +24,8 @@ tags:
 vid_id: '030'
 mux: 00lV9Kv1twDE8QEA8zATUVQ21AT5IX005G
 yt_id: zSvBcnaEbp8
+pw: 720
+ph: 405
 
 ---
 My 3rd DDR Project vid, this time a collaboration with AMV editor <a href="http://www.jhgfd.com/" title="Jeff Heller Graphic and Function Design">Gambitt</a>.

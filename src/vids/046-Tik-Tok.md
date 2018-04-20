@@ -25,6 +25,8 @@ tags:
     - youhadtobethere
 vid_id: '046'
 mux: QEOaTNXZuKovALC1Jf4bxgXJVdgPFzx9
+pw: 720
+ph: 352
 
 ---
 Listen, let me ask you a question. You ever fuck a mutant?
