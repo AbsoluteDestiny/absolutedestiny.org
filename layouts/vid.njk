@@ -8,7 +8,7 @@
 <meta property="og:description" content="A fanwork by AbsoluteDestiny to {{song}} by {{artist}} using {{footage | join(', ')}}">
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:locale" content="en_US">
-<meta property="og:video" content="{{ site.vid_cdn }}/{{ mp4name }}" />
+<meta property="og:video" content="{{ site.url }}{{paths.href | replace("\\", "/") | replace("/vid/", "/vidplayer/")}}" />
 <meta property="video:director" content="{{ site.author }}">
 <meta property="video:release_date" content="{{ date.toISOString() }}">
 <meta name="twitter:card" content="player">
