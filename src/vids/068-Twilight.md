@@ -25,8 +25,8 @@ tags:
 vid_id: '068'
 mux: HA02mxY02eF5r8vnRYryWdWDvXRXZB2WSR
 yt_id: EdXbGmjiwQA
-pw: 1920
-ph: 800
+pw: 560
+ph: 315
 
 ---
 for Jetpack Monkey
