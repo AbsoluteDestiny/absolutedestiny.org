@@ -14,6 +14,7 @@ song_info_url: 'http://en.wikipedia.org/wiki/Mama_Said_Knock_You_Out'
 downloads:
     - {url: AbsoluteDestiny-Mama_Said_Knock_You_Out-480p.m4v, title: '480p mp4', width: 640, height: 480, mimetype: video/mp4}
     - {url: AbsoluteDestiny-Mama_Said_Knock_You_Out-720p.m4v, title: '720p mp4', width: 1280, height: 720, mimetype: video/mp4}
+    - {url: AbsoluteDestiny-Mama_Said_Knock_You_Out-1080p.m4v, title: '1080p mp4 (remaster)', width: 1440, height: 1080, mimetype: video/mp4}
 srt: null
 sd_stream: AbsoluteDestiny-Mama_Said_Knock_You_Out-480p.m4v
 svg: AbsoluteDestiny-Mama_Said_Knock_You_Out.svg
@@ -24,7 +25,7 @@ tags:
     - spoilers
     - gift
 vid_id: '057'
-mux: 8vhjswnFXoq02SL7ncxyj02004K7U9dDpcR
+mux: WmBY13Qgp00CkdDzxD4xm4PyPCJ77ikvD
 priority: 1.0
 pw: 640
 ph: 480
