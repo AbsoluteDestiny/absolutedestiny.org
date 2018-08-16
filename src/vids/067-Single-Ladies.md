@@ -6,7 +6,7 @@ description: ''
 lyrics: ""
 footage:
     - 'The Young Girls of Rochefort (1967)'
-song: 'Sing Ladies (Put a Ring On It)'
+song: 'Single Ladies (Put a Ring On It)'
 artist: 'Beyoncé'
 song_info_url: 'https://en.wikipedia.org/wiki/Single_Ladies_(Put_a_Ring_on_It)'
 downloads:

@@ -2,7 +2,7 @@
 title: 'Jerk It'
 date: 2018-05-27T15:38:39.000Z
 published: true
-description: 'Featuring: Bloodsport, Call of Buty 3: Going Commando, Commando, Cyborg, Demolition Man, Dobule Impact, Heartbreak Ridge, Kick Boxer, Predator, Pumping Iron, Rambo II, Red Heat, Red Scorpion, Roadhouse, Rocky III, Rocky IV, Showdown in Little Tokyo, Tango and Cash, The Running Man, The Terminator, Titan Men: Payload, Top Gun, Universal Soldier'
+description: 'Featuring: Bloodsport, Call of Buty 3: Going Commando, Commando, Cyborg, Demolition Man, Double Impact, Heartbreak Ridge, Kickboxer, Predator, Pumping Iron, Rambo II, Red Heat, Red Scorpion, Road House, Rocky III, Rocky IV, Showdown in Little Tokyo, Tango and Cash, The Running Man, The Terminator, Titan Men: Payload, Top Gun, Universal Soldier'
 lyrics: ""
 footage:
     - 'Action Movies'
