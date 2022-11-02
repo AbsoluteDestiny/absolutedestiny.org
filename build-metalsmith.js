@@ -27,7 +27,7 @@ const replace = require("metalsmith-text-replace");
 const sitemap = require("metalsmith-sitemap");
 const subsetfonts = require("metalsmith-subsetfonts");
 const inlineSource = require("metalsmith-inline-source");
-const sharp = require("metalsmith-sharp");
+// const sharp = require("metalsmith-sharp");
 const nunjucksDate = require("nunjucks-date");
 const timer = require("metalsmith-timer");
 const msIf = require("metalsmith-if");
@@ -53,20 +53,19 @@ async function buildMetalsmith() {
       .use(timer("autoprefixer"))
       .use(autoprefixer())
       .use(timer("css move"))
-      .use(copy({
+      .use(
+        copy({
           pattern: "assets/css/*.css",
           move: false,
           transform(file) {
             return path.join(
-              ...path
-                .dirname(file)
-                .split(path.sep)
-                .slice(1),
+              ...path.dirname(file).split(path.sep).slice(1),
               "admin",
               path.basename(file)
             );
-          }
-        }))
+          },
+        })
+      )
       // .use(
       //   sharp({
       //     src: "**/*.svg",
@@ -85,101 +84,148 @@ async function buildMetalsmith() {
       //   })
       // )
       .use(timer("move other assets"))
-      .use(copy({ pattern: "assets/**/*.*", move: true, transform(file) {
-            return path.join(...path
-                .dirname(file)
-                .split(path.sep)
-                .slice(1), path.basename(file));
-          } }))
+      .use(
+        copy({
+          pattern: "assets/**/*.*",
+          move: true,
+          transform(file) {
+            return path.join(
+              ...path.dirname(file).split(path.sep).slice(1),
+              path.basename(file)
+            );
+          },
+        })
+      )
       .use(cleanCSS())
       .use(timer("fingerprint"))
       .use(fingerprint({ pattern: ["css/*.css", "js/*.js"] }))
       .use(timer("admin css"))
-      .use(copy({ pattern: "css/admin/*.*", move: true, transform(file) {
+      .use(
+        copy({
+          pattern: "css/admin/*.*",
+          move: true,
+          transform(file) {
             return path.join("css", path.basename(file));
-          } }))
+          },
+        })
+      )
       // .use(getFandoms())
       .use(timer("admin config"))
-      .use(replace({
+      .use(
+        replace({
           "admin/config.yml": {
             find: /abcd/gi,
-            replace: () => `${nextId + 1}`
-          }
-        }))
+            replace: () => `${nextId + 1}`,
+          },
+        })
+      )
       .use(timer("rename md to basename version"))
-      .use(each((f, filename) => {
+      .use(
+        each((f, filename) => {
           const file = f;
           file.basename = path.basename(filename, ".md");
           return filename;
-        }))
+        })
+      )
       .use(ignore(["tags/**", "**/*.less"]))
       .use(timer("copy vids to vidplayer"))
-      .use(copy({ pattern: "vids/*.*", move: false, transform(file) {
-            const newpath = path.join("vidplayer", ...path
-                .dirname(file)
-                .split(path.sep)
-                .slice(1), path.basename(file));
+      .use(
+        copy({
+          pattern: "vids/*.*",
+          move: false,
+          transform(file) {
+            const newpath = path.join(
+              "vidplayer",
+              ...path.dirname(file).split(path.sep).slice(1),
+              path.basename(file)
+            );
             return newpath;
-          } }))
+          },
+        })
+      )
       .use(timer("add markdown layout metadata"))
-      .use(fileMetadata([
+      .use(
+        fileMetadata([
           { pattern: "*.md", metadata: { layout: "home.njk" } },
           { pattern: "vids/**", metadata: { layout: "vid.njk" } },
-          { pattern: "vidplayer/**", metadata: { layout: "vidplayer.njk" } }
-        ]))
+          { pattern: "vidplayer/**", metadata: { layout: "vidplayer.njk" } },
+        ])
+      )
       .use(timer("make vids collection"))
-      .use(collections({
+      .use(
+        collections({
           vids: {
             pattern: "vids/*.md",
             sortBy: "date",
-            reverse: true
-          }
-        }))
+            reverse: true,
+          },
+        })
+      )
       .use(timer("transform md to html"))
       .use(markdown())
       .use(timer("permalinks"))
-      .use(permalinks({ // pattern: "post/:date/:title",
+      .use(
+        permalinks({
+          // pattern: "post/:date/:title",
           // date: "YYYY/MM/DD",
 
-          linksets: [{ match: { collection: "vids" }, pattern: "vid/:basename" }, { match: { collection: "vidplayer" }, pattern: "vidplayer/:basename" }] }))
+          linksets: [
+            { match: { collection: "vids" }, pattern: "vid/:basename" },
+            {
+              match: { collection: "vidplayer" },
+              pattern: "vidplayer/:basename",
+            },
+          ],
+        })
+      )
       .use(timer("make feed"))
       .use(feed({ collection: "vids" }))
       .use(timer("fix index.html paths"))
       .use(paths({ property: "paths", directoryIndex: "index.html" }))
       .use(timer("nunjucks templating"))
-      .use(layouts({ // engine: "nunjucks",
+      .use(
+        layouts({
+          // engine: "nunjucks",
           // directory: "layouts",
-          pattern: "**/*.html", engineOptions: { filters: { date: nunjucksDate } } }))
+          pattern: "**/*.html",
+          engineOptions: { filters: { date: nunjucksDate } },
+        })
+      )
       .use(msIf(process.env.CONTEXT === "production", subsetfonts())) // this plugin will run
       .use(timer("inline svgs"))
       .use(inlineSource({ swallowErrors: true }))
       .use(timer("minify html"))
-      .use(htmlMinifier({
+      .use(
+        htmlMinifier({
           removeAttributeQuotes: false,
-          removeEmptyAttributes: false
-        }))
+          removeEmptyAttributes: false,
+        })
+      )
       .use(timer("create sitemap"))
-      .use(sitemap({
+      .use(
+        sitemap({
           hostname: sitedata.url,
           omitIndex: true,
-          pattern: ["vid/**/*.html", "*.html"]
-        }))
+          pattern: ["vid/**/*.html", "*.html"],
+        })
+      )
       .use(timer("google webmaster file"))
-      .use(copy({
+      .use(
+        copy({
           pattern: "**/googlea7adbfb6a9a0f483",
           move: true,
           transform(file) {
             return `${path.basename(file)}.html`;
-          }
-        }))
-      .build(err => {
+          },
+        })
+      )
+      .build((err) => {
         if (err) {
           reject(err);
         }
         resolve();
       });
-  })
-  
+  });
 }
 
 module.exports = buildMetalsmith;
